@@ -1,6 +1,6 @@
 # Ledger Nano X
 
-An upgrade to [[Ledger Nano S]]. The device introduces larger storage capacity for more apps, faster MCU, larger display, bluetooth connection and battery. The device is marketed as the perfect hardware wallet for mobile users.
+An upgrade to [[Ledger Nano S]]. The device introduces larger storage capacity for more apps, faster MCU, larger display, bluetooth connection and battery. The device is marketed as the perfect hardware wallet for mobile users. The device is essentially an upgrade. It's recommended to refer to [[Ledger Nano S]] for categories which are not included here.
 
 ## At a glance
 
@@ -12,4 +12,13 @@ Most major change is in the hardware, the screen and buttons are no longer opera
 
 Another change is upgrade of the MCU that allows the X to store more apps, according to the vendor "up to 100". This allows the user for greater flexibility in using multiple cryptos without the need to reinstall apps if the user needs to do something. 
 
+## Non-hardware related
 
+### Manual
+Device has a publicly accessible PDF-version of their manual. Which very broadly and extensively describes all the functions of the Ledger.
+
+source: https://support.ledger.com/hc/en-us/articles/360019514333-User-manual?docs=true
+
+### Upgradability
+
+The device is still supported by Ledger and with greater memory capacity allows for higher flexibility and independence from mainline Ledger software client.

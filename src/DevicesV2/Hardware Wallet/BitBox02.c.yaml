@@ -14,7 +14,7 @@ properties:
   independentmode: false
   inputs: Resistive touch buttons on the sides
   madeby: ShiftCrypto
-  manual: http://shiftcrypto.ch/bitbox02/BitBox_Diceware_HowTo.pdf
+  manual: https://shiftcrypto.support/help/en-us/3-basics
   mcu: Microchip ATSAMD51J20A-AU
   mcumanufacturer: MicroChip Technology
   openclient: true

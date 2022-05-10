@@ -23,7 +23,7 @@ The underlying hardware seems to be an open secret though, with no BOM or schema
 Software client is a web-based [Archos Safe-T client](https://app.safe-t.io/). The client is based upon the existing Trezor protocol, thus there is a possibility that the device may link 
 
 ### Optional features
-todo:
+None, compared to Trezor Model One, they've removed support for U2F, despite the inclusion of U2F library in the source code.
 
 ### Security
 The security is similar to [[Trezor One]] with an exception of added SE to securely store data into an embedded SE.
@@ -38,8 +38,8 @@ The device relies on software wallet to do it's work, reducing confidentiality o
 ## Non-hardware related
 
 ### Manual
-todo: 
+Manual is a simple FAQ link
 ### Support
-todo:
+The device is no longer updated and possibly no longer offers post-sale support for the device.
 ## Upgradability
 The device is no longer updated, the lastest firmware is 1.1.4 which had bee released on 13th December 2018. 

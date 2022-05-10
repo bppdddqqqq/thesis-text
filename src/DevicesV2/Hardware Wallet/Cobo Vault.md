@@ -71,7 +71,7 @@ Source: [Leaving Cobo to continue the Cobo Vault legacy | by Lixin Liu | Keyston
 
 The difference on Keystone and Cobo stems on more technical side of things, such as placement of SD card slot, and support for greater capacity SD cards. Aside from that, the software foundation is the same on both the SOC (frontend and parser), and SE (backend). 
 
-The SE according to the available documentation allows efficient usage of known cryptographic algorithms. On the github repository, the firmware hosts .lib files for ecdsa and rsa, which either hint for (todo: research more) software-based implementation of the cryptographic algorithms. ([cobo-vault-se-firmware/source/driver at 29321e8c0efb41069c62860d9e670201e3aab749 · CoboVault/cobo-vault-se-firmware · GitHub](https://github.com/CoboVault/cobo-vault-se-firmware/tree/29321e8c0efb41069c62860d9e670201e3aab749/source/driver))
+The SE according to the available documentation allows efficient usage of known cryptographic algorithms. On the github repository, the firmware hosts .lib files for ecdsa and rsa, which either hint for software-based implementation of the cryptographic algorithms. ([cobo-vault-se-firmware/source/driver at 29321e8c0efb41069c62860d9e670201e3aab749 · CoboVault/cobo-vault-se-firmware · GitHub](https://github.com/CoboVault/cobo-vault-se-firmware/tree/29321e8c0efb41069c62860d9e670201e3aab749/source/driver))
 
 Another thing to note, that the firmware seems to utilise an anti-tamper mechanism, which checks for illicit inputs to GPIO pins of the SE (https://github.com/CoboVault/cobo-vault-se-firmware/blob/29321e8c0efb41069c62860d9e670201e3aab749/source/main.c#L104).
 

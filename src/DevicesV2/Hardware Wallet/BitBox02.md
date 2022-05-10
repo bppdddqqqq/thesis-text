@@ -56,7 +56,7 @@ The github repository forks part of the source code related to communication bet
 The [[Microchip ATECC608A SE]] albeit cannot protect the data from physical attacks, an exploit [[ATECC608A Laser Fault Injection]] exists which allows the adversary to attack the device and possible extract the seeds from the secure data banks. Whether this attack had been addressed is yet unknown.
 
 ### Physical security
-The device has simple tamper-proof packaging. // todo: validate
+The device has simple tamper-proof packaging. The device box is packed in additional layer of sealed plastic bag with tamper-evident markings if it had been opened by a 3rd-party during transit.
 
 ### Privacy
 The device doesn't need to rely on a vendor-provided software wallet to do its work, ensuring a higher level of transparency. In addition, the software is fully open allowing the user to verify the code running on the desktop client.
@@ -64,15 +64,17 @@ The device doesn't need to rely on a vendor-provided software wallet to do its w
 ## Non-hardware related
 
 ### Manual
-//todo
+They have a web manual located [here](https://shiftcrypto.support/help/en-us/3-basics) and also the app has an on-boarding process which teaches the user how to use the BitBox02.
+
+
 
 ### Support
-//todo
+There is a support website [here](https://shiftcrypto.support/help/en-us)
 
-## Upgradability
-//todo
+### Upgradability
+The device is updated via the BitBoxApp, the device is maintained by ShiftCrypto via monthly updates.
 
-
+### Aditional sources:
 https://github.com/digitalbitbox
 https://github.com/digitalbitbox/bitbox02-firmware/tree/ea520f5156a64d3fc57eee8cffae505e674f646e/src/rust/bitbox02-rust/src
 https://shiftcrypto.ch/app/
@@ -80,4 +82,3 @@ https://shiftcrypto.ch/bitbox02/bitcoin-only/
 https://shiftcrypto.ch/bitbox02/threat-model/
 https://saleemrashid.com/2018/11/26/breaking-into-bitbox/
 https://github.com/digitalbitbox/bitbox-wallet-app
-#wip

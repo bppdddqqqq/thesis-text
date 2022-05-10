@@ -22,11 +22,8 @@ The device seems to require usage of their also propriatary SafePal App. The sof
 
 Upon further research this haven't been proven conclusive. BURs strive to make the pairing process one-way, with output send say to Sparrow Wallet or other apps to be as frictionless as possible. In case of SafePal this isn't the case, the device requires a pairing code, which 
 
-todo: research possibility of how SafePal used to operate the device between 2019.05 and 2020.05, since there wasn't a SafePal app.
-
 ### Optional features
-todo: requires walkthrough
-
+None
 ### Security
 The device does all of it's calculations and input in-hardware, to authenticate the user must enter a PIN code. 
 
