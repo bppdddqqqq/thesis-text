@@ -14,7 +14,7 @@ properties:
   independentmode: false
   inputs: Resistive touch buttons on the sides
   madeby: ShiftCrypto
-  manual: true
+  manual: http://shiftcrypto.ch/bitbox02/BitBox_Diceware_HowTo.pdf
   mcu: Microchip ATSAMD51J20A-AU
   mcumanufacturer: MicroChip Technology
   openclient: true
@@ -26,3 +26,29 @@ properties:
   secureelementmanufacturer: MicroChip Technology
   supported: true
   tethered: "Via USB-C connection"
+  nfc: false
+  linux: true
+  supportlink: https://shiftcrypto.support/help/en-us
+  batterytype: "None"
+  packageSecure: "Sealed bag"
+  forkedhardware: "None"
+  schematicsavailable: https://github.com/digitalbitbox/bitbox02-firmware/blob/master/doc/bb02_v2.10_schematics.pdf
+  inputs: "6 capacitative buttons"
+  multipleeditions: false
+  ios: false
+  countryoforigin: "Switzerland"
+  android: true
+  subscription: null
+  disclosureprogram: https://shiftcrypto.ch/bug-bounty-program/
+  qrcode: false
+  microusb: false
+  bluetooth: false
+  usbc: true
+  blog: https://shiftcrypto.ch/blog/
+  macos: true
+  bomavailable: https://github.com/digitalbitbox/bitbox02-firmware/blob/master/doc/bb02_bom_v2.10.pdf
+  hardwarelicensing: "Apache 2.0"
+  sdcard: true
+  windows: true
+  remotemode: false
+  github: https://github.com/digitalbitbox/

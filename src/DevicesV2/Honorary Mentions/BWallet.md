@@ -26,6 +26,11 @@ https://github.com/BWallet/bwallet-common
 https://github.com/BWallet/bwallet-qrenc
 https://github.com/BWallet/bwallet-tools
 
+The cloning prompted Trezor to drastically change their licensing of the device/firmware to Microsoft Reference License, which received a severe backlash from the community. They've reverted this decision shortly after.
+
+Source: https://www.reddit.com/r/Bitcoin/comments/2u1wea/trezor_code_no_longer_lgplv3_but_now_more/
+Source: https://news.ycombinator.com/item?id=8966347
+Source: http://digitalmoneytimes.com/satoshilabs-changes-trezor-software-open-source-license-reverts-again-after-community-feedback/
 
 ### Software client
 The device uses a modified Trezor client, which is incompatible with Trezor devices and also uses a modified communication protocol which makes the usage of the software device difficult with other software clients. Also the client has embedded supercookie tracking, which queries for HWIDs on the host device.

@@ -10,7 +10,12 @@ A crypto wallet created by a french manufacturer Archos. The device is as of yet
 ### Transparency
 The device can broadcast by itself via Bluetooth connection with an internet-connected Android phone. The device itself doesn't have any Wi-Fi or Bluetooth radios. 
 
-One invalid thing is their claim for EAL7 level of "military-grade security." This claim may be valid for small circuitry but not for the overall architecture of the device. The marketing material claims they use [[ST STSAFE-J102]] Secure Element; this SE is unfortunately certified at EAL5 level only, where or how they assert their EAL7 level of security is to be questioned.
+One invalid thing is their claim for EAL7 level of "military-grade security." This claim may be valid for small circuitry but not for the overall architecture of the device. The marketing material claims they use [[ST STSAFE-J102]] Secure Element; this SE is unfortunately certified at EAL5 level only.
+
+According to marketing material [here](https://www.archos.com/us/products/crypto/archos_safettouch/index.html) the device uses "ProvenCore Trusted Execution Environment Operating System" which according to this press statement did achieve EAL7 certification
+
+Source: https://provenrun.com/provencore-secure-os-achieves-eal7-common-criteria-certification/
+Copy of certificate: https://provenrun.com/wp-content/uploads/2021/09/ProvenCore-Certificat-CC-EAL7.pdf
 
 The device seems to garner rather negative reception, with users claiming they've lost their funds or that the software in the hardware wallet is _buggy_. Due to a severe lack of varied professional reviews, it's tough to piece the initial impressions on the device (consumer reviews [(1)](https://archive.ph/SX8IA) and [(2)](https://archive.ph/rGG9P)). There is a "professional" review released [here](https://www.publish0x.com/pass-fire/archos-safe-t-touch-cold-wallet-at-a-glance-xlygljv).
 
@@ -25,7 +30,7 @@ The hardware device does not require any external clients to generate QR codes f
 
 Another client is an update tool, which allows users to update the device's firmware called Safe-T Touch Updater, a complete tool with firmware blob included with each software version of the updater. The tool is, unfortunately, Windows-only. The tool can be located on this [page](https://www.archos.com/fr/products/crypto/archos_safettouch/index.html?rprod=1)
 
-It's unknown whether the device supports generation of QR codes for sending signed transaction data.
+It's unknown whether the device supports generation of QR codes compliant with BCR-2020-005.
 
 ### Optional features
 The device may work independently from the host device.

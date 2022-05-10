@@ -10,7 +10,7 @@ properties:
   hwisupport: false
   independentmode: false
   madeby: Cobo
-  manual: true
+  manual: https://myhardwarewallet.co.uk/wp-content/uploads/2019/08/Quick-Guide-EN.pdf
   mcu: Cobo CBYXM001
   mcumanufacturer: Cobo
   openclient: false
@@ -21,3 +21,29 @@ properties:
   secureelementmanufacturer: Cobo
   supported: false
   tethered: "Truly airgapped"
+  nfc: false
+  linux: true
+  supportlink: null
+  batterytype: "None"
+  packageSecure: "Holographic seal"
+  forkedhardware: "None"
+  schematicsavailable: https://github.com/CoboVault/cobo-vault-docs/blob/master/hardware/Cobo_Vault_V1.02_schematic.pdf
+  inputs: "Touch input"
+  multipleeditions: false
+  ios: true
+  countryoforigin: "China"
+  android: true
+  subscription: null
+  disclosureprogram: null
+  qrcode: true
+  microusb: true
+  bluetooth: false
+  usbc: false
+  blog: null
+  macos: true
+  bomavailable: https://github.com/CoboVault/cobo-vault-docs/blob/master/hardware/Cobo_Vault_V1.02_BOM.xls
+  hardwarelicensing: "All Rights Reserved"
+  sdcard: true
+  windows: true
+  remotemode: false
+  github: https://github.com/CoboVault/

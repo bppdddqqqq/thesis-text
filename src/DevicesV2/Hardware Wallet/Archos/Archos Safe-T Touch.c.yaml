@@ -10,7 +10,7 @@ properties:
   hwisupport: false
   independentmode: true
   madeby: Archos
-  manual: true
+  manual: https://usermanual.wiki/Archos/ACSAFETT01
   mcu: MediaTek MT6739V
   mcumanufacturer: MediaTek
   openclient: false
@@ -20,4 +20,30 @@ properties:
   secureelement: "ST STSAFE-J102"
   secureelementmanufacturer: "ST MicroElectronics"
   supported: false
-  tethered: "Via Bluetooth or USB-C connection"
+  tethered: "Via Bluetooth"
+  nfc: false
+  linux: false
+  supportlink: https://www.archos.com/us/support/index.html
+  batterytype: "None"
+  packageSecure: "Holographic seal"
+  forkedhardware: "None"
+  schematicsavailable: null
+  inputs: "touch input"
+  multipleeditions: true
+  ios: false
+  countryoforigin: "France"
+  android: true
+  subscription: null
+  disclosureprogram: null
+  qrcode: false
+  microusb: false
+  bluetooth: false
+  usbc: true
+  blog: null
+  macos: false
+  bomavailable: null
+  hardwarelicensing: "Not Open-Source"
+  sdcard: false
+  windows: false
+  remotemode: false
+  github: null

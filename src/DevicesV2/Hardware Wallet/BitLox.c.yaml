@@ -10,7 +10,7 @@ properties:
   hwisupport: false
   independentmode: false
   madeby: "BitLox"
-  manual: true
+  manual: https://web.archive.org/web/20170222191243/http://bitlox.io/bitlox_hardware_wallet/docs/BitLox_manual_v1.1.pdf
   mcu: "Atmel SAM3 Platform"
   mcumanufacturer: "Atmel"
   openclient: true
@@ -20,4 +20,30 @@ properties:
   secureelement: None
   secureelementmanufacturer: null
   supported: true
-  tethered: "Via USB, Bluetooth or QR codes"
+  tethered: "Via USB, Bluetooth"
+  nfc: false
+  linux: true
+  supportlink: null
+  batterytype: "None"
+  packageSecure: "Unknown"
+  forkedhardware: "None"
+  schematicsavailable: null
+  inputs: "10-digit keypad"
+  multipleeditions: true
+  ios: true
+  countryoforigin: "Hong Kong"
+  android: true
+  subscription: null
+  disclosureprogram: null
+  qrcode: false
+  microusb: false
+  bluetooth: true
+  usbc: true
+  blog: https://www.bitlox.com/blogs/news
+  macos: true
+  bomavailable: null
+  hardwarelicensing: "Not OSS"
+  sdcard: false
+  windows: true
+  remotemode: false
+  github: https://github.com/bitlox

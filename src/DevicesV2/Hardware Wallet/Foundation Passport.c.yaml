@@ -2,7 +2,7 @@ properties:
   _n: FoundationPassport1
   airgapped: true
   battery: true
-  btconly: false
+  btconly: true
   communicationapi: false
   dimensions: [102,38,23]
   display: BW Memory LCD
@@ -13,7 +13,7 @@ properties:
   manual: true
   mcu: ST STM32H753
   mcumanufacturer: ST MicroElectronics
-  openclient: false
+  openclient: true
   openhardware: true
   psbt: true
   released: 2021
