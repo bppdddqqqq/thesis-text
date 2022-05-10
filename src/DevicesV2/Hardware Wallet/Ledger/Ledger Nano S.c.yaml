@@ -1,0 +1,23 @@
+properties:
+  _n: LedgerNanoS
+  airgapped: false
+  battery: false
+  btconly: true
+  communicationapi: true
+  dimensions: [57, 17, 9]
+  display: "OLED BW"
+  hasclient: true
+  hwisupport: true
+  independentmode: false
+  madeby: "Ledger"
+  manual: true
+  mcu: ST STM32F042F4
+  mcumanufacturer: "ST MicroElectronics"
+  openclient: true
+  openhardware: false
+  psbt: true
+  released: 2016
+  secureelement: ST ST31H320
+  secureelementmanufacturer: "ST MicroElectronics"
+  supported: true
+  tethered: "Via MicroUSB connection to a PC"

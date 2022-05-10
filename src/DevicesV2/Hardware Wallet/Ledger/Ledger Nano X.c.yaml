@@ -1,0 +1,23 @@
+properties:
+  _n: LedgerNanoX
+  airgapped: false
+  battery: true
+  btconly: false
+  communicationapi: true
+  dimensions: [72, 19, 12]
+  display: OLED BW
+  hasclient: true
+  hwisupport: true
+  independentmode: false
+  madeby: Ledger
+  manual: true
+  mcu: ST STM32WB55
+  mcumanufacturer: ST MicroElectronics
+  openclient: true
+  openhardware: false
+  psbt: true
+  released: 2019
+  secureelement: ST ST33J2M0
+  secureelementmanufacturer: ST MicroElectronics
+  supported: true
+  tethered: Via USB-C connection or bluetooth

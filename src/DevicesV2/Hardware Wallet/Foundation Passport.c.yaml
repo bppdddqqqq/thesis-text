@@ -1,0 +1,23 @@
+properties:
+  _n: FoundationPassport1
+  airgapped: true
+  battery: true
+  btconly: false
+  communicationapi: false
+  dimensions: [102,38,23]
+  display: BW Memory LCD
+  hasclient: false
+  hwisupport: false
+  independentmode: false
+  madeby: Foundation
+  manual: true
+  mcu: ST STM32H753
+  mcumanufacturer: ST MicroElectronics
+  openclient: false
+  openhardware: true
+  psbt: true
+  released: 2021
+  secureelement: Microchip ATECC608A
+  secureelementmanufacturer: MicroChip
+  supported: true
+  tethered: "Fully airgapped"

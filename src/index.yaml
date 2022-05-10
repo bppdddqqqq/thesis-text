@@ -1,0 +1,13 @@
+# For documentation and available settings, see
+# https://github.com/srid/emanote/blob/master/default/index.yaml
+
+page:
+  siteTitle: BCAP - Wallets
+  siteName: bcap-sbapr
+
+template:
+  theme: red
+  sidebar:
+    collapsed: true
+  urlStrategy: direct
+  baseUrl: https://www.fi.muni.cz/~xparak1/bcpa/

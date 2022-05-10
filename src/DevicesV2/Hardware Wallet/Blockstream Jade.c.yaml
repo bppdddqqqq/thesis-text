@@ -1,0 +1,23 @@
+properties:
+  _n: BlockstreamJade
+  airgapped: false
+  battery: true
+  btconly: true
+  communicationapi: true
+  dimensions: [60,24,17]
+  display: LCD
+  hasclient: true
+  hwisupport: true
+  independentmode: false
+  madeby: "Blockstream"
+  manual: true
+  mcu: "ESP 32"
+  mcumanufacturer: Espressif
+  openclient: true
+  openhardware: true
+  psbt: true
+  released: 2021
+  secureelement: None
+  secureelementmanufacturer: null
+  supported: true
+  tethered: "Via USB-C or Bluetooth connection"

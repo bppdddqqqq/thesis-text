@@ -1,0 +1,23 @@
+properties:
+  _n: CoboVault
+  airgapped: true
+  battery: true
+  btconly: false
+  communicationapi: true
+  dimensions: [112, 64, 15]
+  display: LCD Touch
+  hasclient: true
+  hwisupport: false
+  independentmode: false
+  madeby: Cobo
+  manual: true
+  mcu: Cobo CBYXM001
+  mcumanufacturer: Cobo
+  openclient: false
+  openhardware: true
+  psbt: true
+  released: 2020
+  secureelement: Cobo SE
+  secureelementmanufacturer: Cobo
+  supported: false
+  tethered: "Truly airgapped"

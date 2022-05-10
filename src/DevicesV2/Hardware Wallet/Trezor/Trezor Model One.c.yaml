@@ -1,0 +1,49 @@
+properties:
+  _n: TrezorModel1
+  airgapped: false
+  battery: false
+  btconly: false
+  communicationapi: true
+  dimensions: [60, 30, 6]
+  display: OLED BW
+  hasclient: true
+  hwisupport: true
+  independentmode: false
+  madeby: Trezor
+  manual: https://wiki.trezor.io/User_manual:Unboxing_the_Trezor_device__T1
+  mcu: ST STM32F205RE
+  mcumanufacturer: ST MicroElectronics
+  openclient: true
+  openhardware: true
+  psbt: true
+  released: 2014
+  secureelement: None
+  secureelementmanufacturer: null
+  supported: true
+  tethered: "Via MicroUSB connection"
+  windows: true
+  linux: true
+  nfc: false
+  hardwarelicensing: "AGPL-3.0"
+  bluetooth: false
+  blog: https://blog.trezor.io/
+  disclosureprogram: https://trezor.io/security/
+  ios: false
+  packageSecure: "Holographic seal"
+  bomavailable: https://github.com/trezor/trezor-hardware/blob/master/electronics/trezor_one/trezor_v1.1_BOM.csv
+  schematicsavailable: https://github.com/trezor/trezor-hardware/tree/master/electronics/trezor_one
+  github: https://github.com/trezor/
+  inputs: "Touch input"
+  supportlink: https://trezor.io/support/
+  microusb: true
+  macos: true
+  remotemode: false
+  batterytype: None
+  multipleeditions: false
+  forkedhardware: None
+  countryoforigin: "Czech Republic"
+  qrcode: false
+  subscription: null
+  android: true
+  sdcard: false
+  usbc: false

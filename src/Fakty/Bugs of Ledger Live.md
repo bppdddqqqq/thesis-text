@@ -1,0 +1,2 @@
+- Ledger Live seems to have bias to which device it wants to manage. The client is not made for multi-wallet installations. Issues managing devices if multiple of them are connected
+- Electrum has issues managing both Ledger wallets if connected at once. Either it's a safety feature or bug.

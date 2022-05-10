@@ -1,0 +1,49 @@
+properties:
+  _n: ArchosSafeTMini
+  airgapped: false
+  battery: false
+  btconly: false
+  communicationapi: true
+  dimensions: [58,58,8]
+  display: "OLED BW"
+  hasclient: true
+  hwisupport: false
+  independentmode: false
+  madeby: "Archos"
+  manual: https://www.archos.com/us/products/crypto/faq.html
+  mcu: null
+  mcumanufacturer: null
+  openclient: true
+  openhardware: true
+  psbt: false
+  released: 2018
+  secureelement: Microchip AT88SC0104CA
+  secureelementmanufacturer: MicroChip Technologies
+  supported: false
+  tethered: "Via MicroUSB connection"
+  nfc: false
+  linux: true
+  supportlink: https://www.archos.com/us/support/index.html
+  batterytype: "None"
+  packageSecure: "Holographic seal"
+  forkedhardware: "Trezor Model One"
+  schematicsavailable: null
+  inputs: "2 buttons"
+  multipleeditions: false
+  ios: false
+  countryoforigin: "France"
+  android: true
+  subscription: null
+  disclosureprogram: null
+  qrcode: false
+  microusb: true
+  bluetooth: false
+  usbc: false
+  blog: null
+  macos: true
+  bomavailable: null
+  hardwarelicensing: "Not Open-Source"
+  sdcard: false
+  windows: true
+  remotemode: false
+  github: https://github.com/archos-safe-t

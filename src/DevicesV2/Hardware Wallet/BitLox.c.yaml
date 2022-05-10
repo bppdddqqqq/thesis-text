@@ -1,0 +1,23 @@
+properties:
+  _n: BitLox
+  airgapped: false
+  battery: true
+  btconly: false
+  communicationapi: true
+  dimensions: [85,54,4]
+  display: "E-Ink"
+  hasclient: true
+  hwisupport: false
+  independentmode: false
+  madeby: "BitLox"
+  manual: true
+  mcu: "Atmel SAM3 Platform"
+  mcumanufacturer: "Atmel"
+  openclient: true
+  openhardware: false
+  psbt: false
+  released: 2016
+  secureelement: None
+  secureelementmanufacturer: null
+  supported: true
+  tethered: "Via USB, Bluetooth or QR codes"

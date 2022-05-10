@@ -1,0 +1,23 @@
+properties:
+  _n: ArchosSafeTTouch
+  airgapped: false
+  battery: true
+  btconly: false
+  communicationapi: false
+  dimensions: [106,64,8]
+  display: LCD touch
+  hasclient: true
+  hwisupport: false
+  independentmode: true
+  madeby: Archos
+  manual: true
+  mcu: MediaTek MT6739V
+  mcumanufacturer: MediaTek
+  openclient: false
+  openhardware: false
+  psbt: false
+  released: 2018
+  secureelement: "ST STSAFE-J102"
+  secureelementmanufacturer: "ST MicroElectronics"
+  supported: false
+  tethered: "Via Bluetooth or USB-C connection"

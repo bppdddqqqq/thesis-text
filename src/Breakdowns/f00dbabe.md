@@ -1,0 +1,2 @@
+It is an exploit on [[Ledger Nano S]] which allows to trick the device's bootloader into flashing unauthorized firmware. Due to the hardware architecture of the device, it's possible to only the 'non-secure' of the device while still taking control of the buttons and display, with SE being unaffected and susceptible to attacks. A proper write-up is located here [Bootloader Verification Bypass | WALLET.FAIL](https://wallet.fail/wallets/nanos/firmware-f00dbabe/)
+

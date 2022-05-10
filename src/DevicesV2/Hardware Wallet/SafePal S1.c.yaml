@@ -1,0 +1,23 @@
+properties:
+  _n: SafePalS1
+  airgapped: true
+  battery: true
+  btconly: false
+  communicationapi: false
+  dimensions: [86,54,6]
+  display: LCD
+  hasclient: true
+  hwisupport: false
+  independentmode: false
+  madeby: SafePal
+  manual: true
+  mcu: SafePal S1
+  mcumanufacturer: AllWinner
+  openclient: false
+  openhardware: false
+  psbt: false
+  released: 2019
+  secureelement: Unknown
+  secureelementmanufacturer: null
+  supported: true
+  tethered: "Airgapped"

@@ -1,0 +1,11 @@
+# System-on-Chip / MCU
+
+List of SOCs:
+- [[STM32H753 SOC]]
+- [[STM32WB55 SOC]]
+- [[STM32L496RGT6 SOC]]
+- [[STM32F427VIT6 SOC]]
+- [[STM32F205RE SOC]]
+- [[STM32F042F4 SOC]]
+- [[Microchip ATSAMD51J20A-AU SOC]]
+- [[ESP32 SOC]]

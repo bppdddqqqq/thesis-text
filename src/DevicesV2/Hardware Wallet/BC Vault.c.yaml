@@ -1,0 +1,50 @@
+properties:
+  _n: BcVault
+  airgapped: false
+  battery: false
+  btconly: false
+  communicationapi: false
+  dimensions: [135,90,35]
+  display: OLED BW
+  hasclient: true
+  hwisupport: false
+  independentmode: false
+  madeby: Real Security d.o.o.
+  manual: https://support.bc-vault.com/support/home
+  mcu: Unknown
+  mcumanufacturer: null
+  openclient: false
+  openhardware: false
+  psbt: false
+  released: 2018
+  secureelement: null
+  secureelementmanufacturer: null
+  supported: true
+  tethered: "Via USB-C connection"
+  usbc: true
+  forkedhardware: None
+  microusb: false
+  qrcode: false
+  macos: true
+  bluetooth: false
+  packageSecure: "Holographic seal"
+  windows: true
+  linux: true
+  android: false
+  github: null
+  ios: false
+  subscription: null
+  inputs: "5 buttons"
+  blog: https://bc-vault.com/blog/
+  multipleeditions: true
+  sdcard: true
+  schematicsavailable: null
+  hardwarelicensing: "Not Open-Source"
+  bomavailable: null
+  remotemode: null
+  disclosureprogram: https://support.bc-vault.com/support/solutions/articles/43000516621-reporting-security-vulnerabilities
+  supportlink: https://support.bc-vault.com/support/home
+  batterytype: None
+  nfc: false
+  countryoforigin: Slovenia
+  remotemode: false

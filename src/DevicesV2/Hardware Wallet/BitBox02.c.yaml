@@ -1,0 +1,28 @@
+properties:
+  _n: BitBox02
+  airgapped: false
+  battery: false
+  btconly: false
+  communicationapi: true
+  dimensions:
+  - 45
+  - 24
+  - 8
+  display: OLED BW
+  hasclient: true
+  hwisupport: true
+  independentmode: false
+  inputs: Resistive touch buttons on the sides
+  madeby: ShiftCrypto
+  manual: true
+  mcu: Microchip ATSAMD51J20A-AU
+  mcumanufacturer: MicroChip Technology
+  openclient: true
+  openhardware: true
+  packageSecure: Holographic tape on the box seams
+  psbt: true
+  released: 2019
+  secureelement: Microchip ATECC608A
+  secureelementmanufacturer: MicroChip Technology
+  supported: true
+  tethered: "Via USB-C connection"

@@ -1,0 +1,23 @@
+properties:
+  _n: DCentWallet
+  airgapped: false
+  battery: true
+  btconly: false
+  communicationapi: false
+  dimensions: [77, 43, 11]
+  display: OLED BW
+  hasclient: true
+  hwisupport: false
+  independentmode: false
+  madeby: D'Cent
+  manual: true
+  mcu: Unknown
+  mcumanufacturer: ST MicroElectronics
+  openclient: false
+  openhardware: false
+  psbt: false
+  released: 2020
+  secureelement: Unknown
+  secureelementmanufacturer: NXP Microconductors
+  supported: true
+  tethered: "Via Bluetooth connection"

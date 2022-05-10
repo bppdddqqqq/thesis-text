@@ -1,0 +1,49 @@
+properties:
+  _n: TrezorModelT
+  airgapped: false
+  battery: false
+  btconly: false
+  communicationapi: true
+  dimensions: [64, 39, 10]
+  display: LCD Color
+  hasclient: true
+  hwisupport: true
+  independentmode: false
+  madeby: Trezor
+  manual: https://wiki.trezor.io/User_manual:Unboxing_the_Trezor_device
+  mcu: ST STM32F427VIT6
+  mcumanufacturer: ST MicroElectronics
+  openclient: true
+  openhardware: true
+  psbt: true
+  released: 2018
+  secureelement: None
+  secureelementmanufacturer: null
+  supported: true
+  tethered: "Via USB-C connection"
+  windows: true
+  linux: true
+  nfc: false
+  hardwarelicensing: "AGPL-3.0"
+  bluetooth: false
+  blog: https://blog.trezor.io/
+  disclosureprogram: https://trezor.io/security/
+  ios: false
+  packageSecure: "Holographic seal"
+  bomavailable: https://github.com/trezor/trezor-hardware/blob/master/electronics/trezor_model_t/bom.txt
+  schematicsavailable: https://github.com/trezor/trezor-hardware/tree/master/electronics/trezor_model_t
+  github: https://github.com/trezor/
+  inputs: "Touch input"
+  supportlink: https://trezor.io/support/
+  microusb: false
+  macos: true
+  remotemode: false
+  batterytype: "None"
+  multipleeditions: false
+  forkedhardware: "Trezor Model One"
+  countryoforigin: "Czech Republic"
+  qrcode: false
+  subscription: null
+  android: true
+  sdcard: true
+  usbc: true
