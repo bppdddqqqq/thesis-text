@@ -27,7 +27,5 @@ jobs:
         uses: actions/setup-python@v3.1.2
       - name: Run a multi-line script
         run: |
-          pushd Compilator/
-          pip3 install -r requirements.txt
-          pushd
+          pip3 install -r Compilator/requirements.txt
           python3 main.py -c
