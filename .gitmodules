@@ -1,0 +1,3 @@
+[submodule "Compilator"]
+	path = Compilator
+	url = https://github.com/bppdddqqqq/thesis-parser
