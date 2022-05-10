@@ -29,7 +29,7 @@ Another detail in their repo is the lack of git modules or any kind of synchroni
 https://github.com/kmackay/micro-ecc
 https://github.com/Coldcard/firmware/tree/master/stm32/bootloader/micro-ecc
 
-The final detail is in the very COPYING-CC license, which by the legal terms is not truly an "open-source" license. Which they propagate in their recent marketing material. This statement is partially correct because the hardware and software are public for private consumption, but for commercial or other purposes there are certain and marginal restrictions, either by the code imported and forked or by the restrictions set by CoinKite Inc. on parts of their code.
+The final detail is in the COPYING-CC license, which by the legal terms is not truly an "open-source" license. Which they propagate in their recent marketing material. This statement is partially correct because the hardware and software are public for private consumption, but for commercial or other purposes there are certain and marginal restrictions, either by the code imported and forked or by the restrictions set by CoinKite Inc. on parts of their code.
 
 MK3 is powered by [[STM32L496RGT6 SOC]] and [[Microchip ATECC608A SE]]
 

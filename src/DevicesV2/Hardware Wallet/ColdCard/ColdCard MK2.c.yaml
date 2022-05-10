@@ -1,0 +1,49 @@
+properties:
+  _n: ColdCardMk2
+  airgapped: false
+  battery: true
+  btconly: true
+  communicationapi: true
+  dimensions: [88, 52, 9]
+  display: OLED BW
+  hasclient: false
+  hwisupport: true
+  independentmode: false
+  madeby: CoinKite
+  manual: 
+  mcu: 
+  mcumanufacturer: 
+  openclient: true
+  openhardware: true
+  psbt: true
+  released:
+  secureelement:
+  secureelementmanufacturer:
+  supported: true
+  tethered: "Via USB-C connection"
+  windows: true
+  linux: true
+  nfc: false
+  hardwarelicensing: "Copying-CC"
+  bluetooth: false
+  blog: 
+  disclosureprogram: 
+  ios: false
+  packageSecure: "Holographic sale, tamper-evident sealbag"
+  bomavailable: null
+  schematicsavailable: null
+  github: 
+  inputs: "12-button pinpad"
+  supportlink: 
+  microusb: true
+  macos: true
+  remotemode: true
+  batterytype: "None"
+  multipleeditions: false
+  forkedhardware: ""
+  countryoforigin: "Canada"
+  qrcode: false
+  subscription: null
+  android: true
+  sdcard: true
+  usbc: false
