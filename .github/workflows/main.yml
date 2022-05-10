@@ -23,7 +23,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
-          ssh-key: ${{ secrets.CENTRAL_SECRET }}
+          token: ${{ secrets.PAT }}
           submodules: recursive
       # Runs a set of commands using the runners shell
       - name: Setup Python
