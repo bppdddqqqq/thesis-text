@@ -1,36 +1,85 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Check process for Thesis-parser
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   pull_request:
     branches: [ master ]
   push:
     branches: [ master ]
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  check:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    name: Check validity of documents
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.PAT }}
           submodules: recursive
-      # Runs a set of commands using the runners shell
+      
       - name: Setup Python
         uses: actions/setup-python@v3.1.2
       - name: Setup libraries
         run: pip3 install -r Compilator/requirements.txt
       - name: Run check
         run: python3 main.py -d
+  build:
+    runs-on: ubuntu-latest
+    name: Build process
+    needs: [check]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }}
+          submodules: recursive
+      - name: Setup Python
+        uses: actions/setup-python@v3.1.2
+      - name: Setup libraries
+        run: pip3 install -r Compilator/requirements.txt
+      - name: Run compile
+        run: python3 main.py -c
+      - name: Cache dist
+        uses: actions/cache@v2
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: dist/
+          key: dist-thesis
+  emanote:
+    runs-on: ubuntu-latest   
+    needs: [build]
+    name: 'Emanote build'
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }}
+          submodules: recursive
+      - name: Build FS
+        run: |
+          mkdir data/
+          mkdir data/output/
+      - name: Uncache dist
+        uses: actions/cache@v2
+        with:
+          # npm cache files are stored in `~/.npm` on Linux/macOS
+          path: data/dist/
+          key: dist-thesis
+      - name: Merge data
+        run: |
+          cp -r -n src/ data/dist/
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          name: Finished site
+          path: dist/dist
+      - name: Run emanote
+        uses: addnab/docker-run-action@v3
+        with:
+          image: sridca/emanote
+          options: -e LANG=C.UTF-8 -e LC_ALL=C.UTF-8 --tmpfs /tmp -v ./:/data
+          run: emanote -L "/data/deploy" gen /data/output.docker
+      - name: Upload a Site Artifact
+        uses: actions/upload-artifact@v3.0.0
+        with:
+          name: Finished site
+          path: dist/output.docker
