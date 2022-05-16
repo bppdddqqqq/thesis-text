@@ -45,16 +45,14 @@ jobs:
           cache-dependency-path: 'Compilator/requirements.txt'
       - name: Setup libraries
         run: pip3 install -r Compilator/requirements.txt
+      - name: Run compile
+        run: python3 main.py -c
       - name: Cache dist
         uses: actions/cache@v2
         with:
           # npm cache files are stored in `~/.npm` on Linux/macOS
           path: dist/
-          key: dist-thesis
-      - name: Purge dist
-        run: rm -rf dist/*
-      - name: Run compile
-        run: python3 main.py -c
+          key: dist-thesis-${{ github.sha }}
   emanote:
     runs-on: ubuntu-latest   
     needs: [build]
@@ -74,7 +72,7 @@ jobs:
         with:
           # npm cache files are stored in `~/.npm` on Linux/macOS
           path: dist/
-          key: dist-thesis
+          key: dist-thesis-${{ github.sha }}
       - name: Merge data
         run: |
           cp -r dist/* data/dist/
