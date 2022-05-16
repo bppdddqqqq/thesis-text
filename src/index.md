@@ -59,12 +59,7 @@ Software wallets which also double as clients for devices made by manufacturers.
 - [[Ledger Live]]#
 - [[Trezor Suite]]#
 - [[Blockstream Green]]#
-
-## Kanbans
-- [[Kanban for BCAP Goals]]#
-
 ## Facts
-- [[Lightning network]]
 - [[Shamir backup]]
 - [[STM links]]
 - [[Liquid Network]]

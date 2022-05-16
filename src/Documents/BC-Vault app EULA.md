@@ -1,6 +1,6 @@
   
 
-# End-User License Agreement
+# BC Vault - End-User License Agreement
 
 This End-User License Agreement (EULA) is a legal agreement between you (either as an individual or on behalf of an entity) and Real Security d.o.o. (REALSEC), Inc. regarding your use of BC Vault Hardware Wallet with BC Vault desktop applications, including BC Vault for Windows, Mac and Linux and associated documentation (the "Software"). IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS EULA, DO NOT INSTALL, USE OR COPY THE SOFTWARE.
 

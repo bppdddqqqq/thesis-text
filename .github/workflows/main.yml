@@ -109,7 +109,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2.6.0
         with:
           # GitHub repository where assets will be deployed (default $GITHUB_REPOSITORY)
-          repo: bppdddqqqq/ap-thesis.github.io
+          repo: ap-thesis/ap-thesis.github.io
           # Build directory to deploy
           build_dir: output/
           jekyll: false
