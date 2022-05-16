@@ -20,6 +20,8 @@ jobs:
       
       - name: Setup Python
         uses: actions/setup-python@v3.1.2
+        with:
+          cache: 'pip'
       - name: Setup libraries
         run: pip3 install -r Compilator/requirements.txt
       - name: Run check
@@ -35,8 +37,8 @@ jobs:
           submodules: recursive
       - name: Setup Python
         uses: actions/setup-python@v3.1.2
-      - name: Setup libraries
-        run: pip3 install -r Compilator/requirements.txt
+        with:
+          cache: 'pip'
       - name: Run compile
         run: python3 main.py -c
       - name: Cache dist
@@ -58,20 +60,22 @@ jobs:
         run: |
           mkdir data/
           mkdir data/output/
+          mkdir data/dist/
       - name: Uncache dist
         uses: actions/cache@v2
         with:
           # npm cache files are stored in `~/.npm` on Linux/macOS
-          path: data/dist/
+          path: dist/
           key: dist-thesis
       - name: Merge data
         run: |
+          cp -r dist data/dist/
           cp -r -n src/ data/dist/
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.0.0
         with:
           name: Finished site
-          path: dist/dist
+          path: data/dist
       - name: Run emanote
         uses: addnab/docker-run-action@v3
         with:
@@ -82,4 +86,4 @@ jobs:
         uses: actions/upload-artifact@v3.0.0
         with:
           name: Finished site
-          path: dist/output.docker
+          path: data/output.docker
