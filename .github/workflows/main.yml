@@ -75,8 +75,8 @@ jobs:
           key: dist-thesis
       - name: Merge data
         run: |
-          cp -r dist data/dist/
-          cp -r -n src/ data/dist/
+          cp -r dist/* data/dist/
+          cp -r -n src/* data/dist/
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.0.0
         with:
@@ -86,8 +86,8 @@ jobs:
         uses: addnab/docker-run-action@v3
         with:
           image: sridca/emanote
-          options: -e LANG=C.UTF-8 -e LC_ALL=C.UTF-8 --tmpfs /tmp -v ./:/data
-          run: emanote -L "/data/deploy" gen /data/output.docker
+          options: -e LANG=C.UTF-8 -e LC_ALL=C.UTF-8 --tmpfs /tmp -v ~/data:/data
+          run: emanote -L "/data/dist" gen /data/output.docker
       - name: Upload a Site Artifact
         uses: actions/upload-artifact@v3.0.0
         with:
