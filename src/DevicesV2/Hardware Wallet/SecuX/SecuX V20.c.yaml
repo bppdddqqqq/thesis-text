@@ -1,0 +1,49 @@
+properties:
+  _n: SecuXV20
+  airgapped: false
+  battery: true
+  btconly: false
+  communicationapi: false
+  dimensions: [98, 98, 15]
+  display: LCD Touch
+  hasclient: true
+  hwisupport: false
+  independentmode: false
+  madeby: SecuX
+  manual: https://support.ledger.com/hc/en-us/articles/360019514333-User-manual?docs=true
+  mcu: 
+  mcumanufacturer: 
+  openclient: false
+  openhardware: false
+  psbt: false
+  released: 2019
+  secureelement: InfoKeyVault S97 Omni
+  secureelementmanufacturer: InfoKeyVault
+  supported: true
+  tethered: "Via USB"
+  windows: true
+  linux: true
+  nfc: false
+  hardwarelicensing: "Not open-source"
+  bluetooth: true
+  blog: https://secuxtech.com/news-blog/
+  disclosureprogram: null 
+  ios: true
+  packageSecure: "Holographic seal"
+  bomavailable: null
+  schematicsavailable: null
+  github: https://github.com/secux/
+  inputs: "LCD Touch"
+  supportlink: https://contact.secuxtech.com/
+  microusb: true
+  macos: true
+  remotemode: false
+  batterytype: "600mAh LiPo"
+  multipleeditions: false
+  forkedhardware: "None"
+  countryoforigin: "Taiwan"
+  qrcode: false
+  subscription: null
+  android: true
+  sdcard: false
+  usbc: false

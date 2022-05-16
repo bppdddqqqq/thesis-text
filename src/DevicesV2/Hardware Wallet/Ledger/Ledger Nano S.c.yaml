@@ -12,7 +12,7 @@ properties:
   madeby: "Ledger"
   manual: https://support.ledger.com/hc/en-us/articles/360007061974-User-manual?docs=true
   mcu: ST STM32F042F4
-  mcumanufacturer: "ST MicroElectronics"
+  mcumanufacturer: ST MicroElectronics
   openclient: true
   openhardware: false
   psbt: true
@@ -20,12 +20,12 @@ properties:
   secureelement: ST ST31H320
   secureelementmanufacturer: "ST MicroElectronics"
   supported: true
-  tethered: "Via MicroUSB connection to a PC"
+  tethered: Via USB
   bluetooth: false
   windows: true
   linux: true
   nfc: false
-  hardwarelicensing: "Not OSS"
+  hardwarelicensing: "Not open-source"
   blog: https://blog.ledger.com/
   disclosureprogram: https://blog.ledger.com/bounty
   ios: false
@@ -40,7 +40,7 @@ properties:
   remotemode: false
   batterytype: "None"
   multipleeditions: false
-  forkedhardware: "Not OS"
+  forkedhardware: "None"
   countryoforigin: "France"
   qrcode: false
   subscription: null

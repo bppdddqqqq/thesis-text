@@ -10,26 +10,26 @@ properties:
   hwisupport: true
   independentmode: false
   madeby: CoinKite
-  manual: 
+  manual: https://coldcard.com/docs/
   mcu: 
   mcumanufacturer: 
   openclient: true
-  openhardware: true
+  openhardware: false
   psbt: true
-  released:
-  secureelement:
-  secureelementmanufacturer:
+  released: 2018
+  secureelement: Microchip ATSHA204
+  secureelementmanufacturer: MicroChip
   supported: true
-  tethered: "Via USB-C connection"
+  tethered: "Via USB"
   windows: true
   linux: true
   nfc: false
-  hardwarelicensing: "Copying-CC"
+  hardwarelicensing: "Not open-source"
   bluetooth: false
   blog: https://blog.coinkite.com
   disclosureprogram: null
   ios: false
-  packageSecure: "Holographic sale, tamper-evident sealbag"
+  packageSecure: "Tamper-evident sealbag"
   bomavailable: 
   schematicsavailable: 
   github: https://github.com/coinkite/

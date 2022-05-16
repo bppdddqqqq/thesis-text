@@ -20,7 +20,7 @@ properties:
   secureelement: None
   secureelementmanufacturer: null
   supported: true
-  tethered: "Via USB-C or Bluetooth connection"
+  tethered: "Via USB, Bluetooth"
   countryoforigin: Canada
   inputs: "button and clickwheel"
   qrcode: false

@@ -1,7 +1,7 @@
 properties:
   _n: ColdCardMk4
   airgapped: false
-  battery: true
+  battery: false
   btconly: true
   communicationapi: true
   dimensions: [88, 52, 9]
@@ -10,40 +10,40 @@ properties:
   hwisupport: true
   independentmode: false
   madeby: CoinKite
-  manual: 
-  mcu: 
-  mcumanufacturer: 
+  manual: https://coldcard.com/docs/
+  mcu: STM32L4S5VIT6
+  mcumanufacturer: ST MicroElectronics
   openclient: true
   openhardware: true
   psbt: true
-  released:
-  secureelement:
-  secureelementmanufacturer:
+  released: 2022
+  secureelement: Microchip ATECC608A/B and Maxim DS28C36BQ+T
+  secureelementmanufacturer: MicroChip and Maxim
   supported: true
-  tethered: "Via USB-C connection"
+  tethered: "Via USB, NFC"
   windows: true
   linux: true
-  nfc: false
-  hardwarelicensing: "Copying-CC"
+  nfc: true
+  hardwarelicensing: "All rights reserved"
   bluetooth: false
-  blog: 
-  disclosureprogram: 
-  ios: false
-  packageSecure: "Holographic sale, tamper-evident sealbag"
-  bomavailable: null
-  schematicsavailable: null
-  github: 
+  blog: https://blog.coinkite.com
+  disclosureprogram: null
+  ios: true
+  packageSecure: "Tamper-evident sealbag"
+  bomavailable: https://github.com/Coldcard/firmware/blob/master/hardware/bom-mark4b.xlsx
+  schematicsavailable: https://github.com/Coldcard/firmware/blob/master/hardware/schematic-mark4d.png
+  github: https://github.com/coinkite/
   inputs: "12-button pinpad"
-  supportlink: 
-  microusb: true
+  supportlink: https://coinkite.com/contact
+  microusb: false
   macos: true
   remotemode: true
   batterytype: "None"
   multipleeditions: false
-  forkedhardware: ""
+  forkedhardware: "ColdCard Mk3"
   countryoforigin: "Canada"
-  qrcode: false
+  qrcode: true
   subscription: null
   android: true
   sdcard: true
-  usbc: false
+  usbc: true

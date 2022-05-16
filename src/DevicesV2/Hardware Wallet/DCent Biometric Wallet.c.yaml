@@ -20,7 +20,7 @@ properties:
   secureelement: Unknown
   secureelementmanufacturer: NXP Microconductors
   supported: true
-  tethered: "Via Bluetooth connection"
+  tethered: "Via Bluetooth"
   usbc: false
   microusb: true
   countryoforigin: South Korea
@@ -38,7 +38,7 @@ properties:
   subscription: null
   packageSecure: Holographic seal
   nfc: false
-  hardwarelicensing: "Not OS"
+  hardwarelicensing: "Not open-source"
   qrcode: false
   forkedhardware: "None"
   macos: false

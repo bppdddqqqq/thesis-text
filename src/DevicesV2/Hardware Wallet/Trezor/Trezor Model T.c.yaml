@@ -20,7 +20,7 @@ properties:
   secureelement: None
   secureelementmanufacturer: null
   supported: true
-  tethered: "Via USB-C connection"
+  tethered: "Via USB"
   windows: true
   linux: true
   nfc: false

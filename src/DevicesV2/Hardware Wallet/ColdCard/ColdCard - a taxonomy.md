@@ -10,9 +10,9 @@ A range of cryptographical hardware wallets, are released frequently with newly 
 ## At a glance
 
 ### Transparency
-The first two devices in the range, the MK1 and MK2 were close-sourced. So the specific hardware is unknown to the public and users. What we can infer is that the initial SOCs seemed to have a low amount of RAM, which had been signified by slow phasing out of support citing memory issues. And that the SOCs are likely based on the STM32 platform.
+The device is open-source. MK3 and MK4 has open-sourced it's firmware and hardware, albeit MK1/MK2 only has it's firmware available. The open hard
 
-MK3 had been released together with the underlying hardware schematics and firmware on the Github. Firmware is licensed under COPYING-CC License, aka Commons Clause License Condition, and MIT, which allows the developers to freely fork, modify and sell the firmware under the presumption that it maintains the same license. The range of the license coverage is up for discussion because /hardware directory despite being bound by the COPYING-CC is clearly stated in the readme.md file that the hardware schematics are not meant to be reproduced for a clone of the device.
+Firmware is licensed under COPYING-CC License, aka Commons Clause License Condition, and MIT, which allows the developers to freely fork, modify and sell the firmware under the presumption that it maintains the same license. The range of the license coverage is up for discussion because /hardware directory despite being bound by the COPYING-CC is clearly stated in the readme.md file that the hardware schematics are not meant to be reproduced for a clone of the device.
 
 The firmware is split into 2 parts. The first part is the bootloader, which is written in C with exceptions in Python and only for the compilation. The bootloader includes a Micropython kernel and implements numerous internal syscalls which bridge the hardware and software running after the bootloader. The bootloader maintains the integrity of the underlying software with strongly set public signatures which belong to CoinKite Inc., if the software is not signed by those keys, it will fail the security checks.
 
@@ -29,7 +29,9 @@ Another detail in their repo is the lack of git modules or any kind of synchroni
 https://github.com/kmackay/micro-ecc
 https://github.com/Coldcard/firmware/tree/master/stm32/bootloader/micro-ecc
 
-The final detail is in the COPYING-CC license, which by the legal terms is not truly an "open-source" license. Which they propagate in their recent marketing material. This statement is partially correct because the hardware and software are public for private consumption, but for commercial or other purposes there are certain and marginal restrictions, either by the code imported and forked or by the restrictions set by CoinKite Inc. on parts of their code.
+The final detail is in the COPYING-CC license, which by the legal terms is not truly an "open-source" license. Which they propagate in their recent marketing material. This statement is partially correct because the hardware and software are public for private consumption, but for commercial or other purposes there are certain and marginal restrictions, either by the code imported and forked or by the restrictions set by CoinKite Inc. on parts of their code. Previously the code was licensed under GPL-3.0, but according to @nvk (CoinKite's founder), he considered it a "mistake". Thus he was prompted to rewrite everything under current MIT+COPYING-CC license.
+
+Source: https://twitter.com/nvk/status/1288860345864527874
 
 MK3 is powered by [[STM32L496RGT6 SOC]] and [[Microchip ATECC608A SE]]
 
@@ -59,7 +61,7 @@ The hardware has a clear-view case for the user to easily inspect the innards of
 The device does not rely on a propriatary software wallet to do it's work. The user can either use the ColdCard as a remote signing device or as the most isolated signing device.
 
 ### Manual
-
+The documentation is located under the link [here](#!markdown_get('ColdCardMk4','manual'))
 
 ## Upgradability
 The hardware devices share a common firmware, which has varying levels of support for individual versions. MK1 and MK2 are considered as obsolete, citing small memory and weak performance of the SOC.

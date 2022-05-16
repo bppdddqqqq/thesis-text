@@ -24,7 +24,7 @@ properties:
   nfc: false
   linux: false
   supportlink: https://www.archos.com/us/support/index.html
-  batterytype: "None"
+  batterytype: "Unknown"
   packageSecure: "Holographic seal"
   forkedhardware: "None"
   schematicsavailable: null
@@ -42,7 +42,7 @@ properties:
   blog: null
   macos: false
   bomavailable: null
-  hardwarelicensing: "Not Open-Source"
+  hardwarelicensing: "Not open-source"
   sdcard: false
   windows: false
   remotemode: false

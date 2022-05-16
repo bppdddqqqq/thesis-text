@@ -18,9 +18,9 @@ properties:
   psbt: false
   released: 2018
   secureelement: Microchip AT88SC0104CA
-  secureelementmanufacturer: MicroChip Technologies
+  secureelementmanufacturer: MicroChip
   supported: false
-  tethered: "Via MicroUSB connection"
+  tethered: "Via USB"
   nfc: false
   linux: true
   supportlink: https://www.archos.com/us/support/index.html
@@ -42,7 +42,7 @@ properties:
   blog: null
   macos: true
   bomavailable: null
-  hardwarelicensing: "Not Open-Source"
+  hardwarelicensing: "Not open-source"
   sdcard: false
   windows: true
   remotemode: false

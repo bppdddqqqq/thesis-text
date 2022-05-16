@@ -1,7 +1,7 @@
 properties:
   _n: ColdCardMk2
   airgapped: false
-  battery: true
+  battery: false
   btconly: true
   communicationapi: true
   dimensions: [88, 52, 9]
@@ -10,37 +10,37 @@ properties:
   hwisupport: true
   independentmode: false
   madeby: CoinKite
-  manual: 
+  manual: https://coldcard.com/docs/
   mcu: 
   mcumanufacturer: 
   openclient: true
-  openhardware: true
+  openhardware: false
   psbt: true
-  released:
-  secureelement:
-  secureelementmanufacturer:
+  released: 2019
+  secureelement: Microchip ATECC508A
+  secureelementmanufacturer: MicroChip
   supported: true
-  tethered: "Via USB-C connection"
+  tethered: "Via USB"
   windows: true
   linux: true
   nfc: false
-  hardwarelicensing: "Copying-CC"
+  hardwarelicensing: "Not open-source"
   bluetooth: false
-  blog: 
-  disclosureprogram: 
+  blog: https://blog.coinkite.com
+  disclosureprogram: null
   ios: false
-  packageSecure: "Holographic sale, tamper-evident sealbag"
-  bomavailable: null
-  schematicsavailable: null
-  github: 
+  packageSecure: "Tamper-evident sealbag"
+  bomavailable: 
+  schematicsavailable: 
+  github: https://github.com/coinkite/
   inputs: "12-button pinpad"
-  supportlink: 
+  supportlink: https://coinkite.com/contact
   microusb: true
   macos: true
   remotemode: true
   batterytype: "None"
   multipleeditions: false
-  forkedhardware: ""
+  forkedhardware: "ColdCard Mk1"
   countryoforigin: "Canada"
   qrcode: false
   subscription: null

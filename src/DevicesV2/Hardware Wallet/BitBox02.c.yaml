@@ -23,9 +23,9 @@ properties:
   psbt: true
   released: 2019
   secureelement: Microchip ATECC608A
-  secureelementmanufacturer: MicroChip Technology
+  secureelementmanufacturer: MicroChip
   supported: true
-  tethered: "Via USB-C connection"
+  tethered: "Via USB"
   nfc: false
   linux: true
   supportlink: https://shiftcrypto.support/help/en-us

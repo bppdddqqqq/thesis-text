@@ -20,7 +20,7 @@ properties:
   secureelement: null
   secureelementmanufacturer: null
   supported: true
-  tethered: "Via USB-C connection"
+  tethered: "Via USB"
   usbc: true
   forkedhardware: None
   microusb: false

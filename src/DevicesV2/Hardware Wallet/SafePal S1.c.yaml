@@ -27,7 +27,7 @@ properties:
   countryoforigin: China
   macos: false
   blog: https://blog.safepal.io/
-  hardwarelicensing: "Not OS"
+  hardwarelicensing: "Not open-source"
   windows: false
   microusb: true
   bluetooth: false

@@ -9,6 +9,12 @@ A very atypically shaped device which reminds of old cellphones from the days of
 ### Transparency
 The device's hardware, firmware and software is FOSS and freely readable on their [Github](https://github.com/Foundation-Devices/passport-firmware). Their software uses bits of software developed by [[Trezor]], for that matter their cryptographic library. The firmware during development was based on [[ColdCard - a taxonomy]] and it's predecessor's firmware, but over time they've fully transitioned to a fresh MicroPython-based firmware.
 
+The device was a target of controversy by CoinKite's founder, @nvk.
+
+Source: https://medium.com/coinmonks/rekt-crypto-hardware-con-artists-creep-into-bitcoin-8ad713198d3a
+Source: https://archive.ph/yt0vp
+Source: https://twitter.com/nvk/status/1288860345864527874
+
 The complete schematics are publicly available in this repository https://github.com/Foundation-Devices/passport-electronics.
 
 Personally, I perceive this as a very nice addition to the premium cryptowallet space, due to other similarly priced devices being mostly proprietary like [[BC Vault]] or partially open-source like [[Cobo Vault | Cobo Vault/Keystone]].
@@ -22,7 +28,6 @@ The wallet officially supports Bitcoin Core, BlueWallet, BTCPay, Electrum, Sparr
 - User can flash a custom firmware under premise that the device will actively warn the user about non-Foundation firmware being installed.
 - Duress pin
 - PSBTs
-#!markdown_get('FoundationPassport1','linux')
 ### Security
 The device has their security document publicly available on their [github](https://github.com/Foundation-Devices/passport-firmware/blob/main/SECURITY/SECURITY.md).
 

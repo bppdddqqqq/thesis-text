@@ -20,7 +20,7 @@ properties:
   secureelement: Microchip ATECC608A
   secureelementmanufacturer: MicroChip
   supported: true
-  tethered: "Fully airgapped"
+  tethered: "Airgapped"
   nfc: false
   supportlink: https://docs.foundationdevices.com/
   disclosureprogram: https://foundationdevices.com/security/

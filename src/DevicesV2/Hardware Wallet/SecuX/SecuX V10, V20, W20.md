@@ -4,7 +4,7 @@ source: https://shop.archos.com/fr/hardware-wallets/588-archos-safe-t-mini-06905
 ---
 
 
-# SecuX V10,V20,W20 Line
+# SecuX W10,W20,V20 Line
 Is a range of devices manufactured by a "TODO" company. The line consists of 3 devices, which vary in form factor and feature-sets. All of the devices seem to use the same Secure Element, so-called [[InfoKeyVault S97 Omni]]. The range of devices suffer from informational blackout, with various source codes pulled and removed after a critical video review on Youtube, regarding the device's security.
 ## At a glance
 
@@ -35,17 +35,17 @@ There was an incident which caused SecuX to suddenly rebase/censor repositories 
 The device requires usage of SecuX's own clients //todo: add names ;; the clients utilise a library called SecuXConnect, which builds the necessary USB/Bluetooth interface for communication with the device and also necessary update of the device details. The client enhances the on-device experience by providing balance info straight to the hardware wallet. This had been exploited in the aforementioned youtube video,  
 
 ### Optional features
-The optional feature are the editions. There are virtually no differences between V20/W20 on the software or chip level, aside from different form factor and existence of USB-C port on W20, compared to MicroUSB on V20.
+The optional feature are the editions. There are virtually no differences between V20/W20 on the software or chip level, aside from different form factor and existence of USB-C port on V20, compared to MicroUSB on W10/W20.
 
-V20/W20 contains a faster SOC, but support same amount of currencies as V10, plus V20/W20 have a battery and bluetooth radios, to allow linking with phone devices.
+V20/W20 contains a faster SOC, but support same amount of currencies as W10, plus V20/W20 have a battery and bluetooth radios, to allow linking with phone devices.
 
 ### Security
 PIN entry
 
 ### Physical security
-V10/V20 use the same device casing. Which is easily openable with regular prying tools.
+W10/W20 use the same device casing. Which is easily openable with regular prying tools.
 
-W20 has casing glued shut with harder access for prying tools.
+V20 has casing glued shut with harder access for prying tools.
 
 The packaging uses hollographic seals to guarantee integrity of the devices from the place of manufacturing.
 

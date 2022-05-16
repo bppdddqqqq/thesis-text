@@ -1,5 +1,5 @@
 properties:
-  _n: CoboVault
+  _n: Keystone
   airgapped: true
   battery: true
   btconly: false
@@ -9,14 +9,14 @@ properties:
   hasclient: true
   hwisupport: false
   independentmode: false
-  madeby: Cobo
-  manual: https://myhardwarewallet.co.uk/wp-content/uploads/2019/08/Quick-Guide-EN.pdf
+  madeby: Yanssie HK
+  manual: https://support.keyst.one/
   mcu: Cobo CBYXM001
   mcumanufacturer: Cobo
   openclient: false
   openhardware: true
   psbt: true
-  released: 2020
+  released: 2021
   secureelement: Cobo SE
   secureelementmanufacturer: Cobo
   supported: false
@@ -27,23 +27,23 @@ properties:
   batterytype: "2xAA battery"
   packageSecure: "Holographic seal"
   forkedhardware: "None"
-  schematicsavailable: https://github.com/CoboVault/cobo-vault-docs/blob/master/hardware/Cobo_Vault_V1.02_schematic.pdf
+  schematicsavailable: https://github.com/KeystoneHQ/Keystone-developer-hub/blob/main/hardware/Keystone_V1.02_schematic.pdf
   inputs: "Touch input"
-  multipleeditions: true
+  multipleeditions: false
   ios: true
-  countryoforigin: "China"
+  countryoforigin: "Hong Kong"
   android: true
-  subscription: null
+  subscription: https://support.keyst.one/
   disclosureprogram: null
   qrcode: true
   microusb: false
   bluetooth: false
   usbc: false
-  blog: null
+  blog: https://blog.keyst.one/
   macos: true
-  bomavailable: https://github.com/CoboVault/cobo-vault-docs/blob/master/hardware/Cobo_Vault_V1.02_BOM.xls
+  bomavailable: https://github.com/KeystoneHQ/Keystone-developer-hub/blob/main/hardware/Keystone_V1.02_BOM.xls
   hardwarelicensing: "All Rights Reserved"
   sdcard: true
   windows: true
   remotemode: false
-  github: https://github.com/CoboVault/
+  github: https://github.com/KeystoneHQ/

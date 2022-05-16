@@ -24,7 +24,7 @@ properties:
   nfc: false
   linux: true
   supportlink: null
-  batterytype: "None"
+  batterytype: "Unknown"
   packageSecure: "Unknown"
   forkedhardware: "None"
   schematicsavailable: null
@@ -42,7 +42,7 @@ properties:
   blog: https://www.bitlox.com/blogs/news
   macos: true
   bomavailable: null
-  hardwarelicensing: "Not OSS"
+  hardwarelicensing: "Not open-source"
   sdcard: false
   windows: true
   remotemode: false

@@ -20,11 +20,11 @@ properties:
   secureelement: STM ST33J2M0
   secureelementmanufacturer: ST MicroElectronics
   supported: true
-  tethered: "Via USB-C connection"
+  tethered: "Via USB"
   windows: true
   linux: true
   nfc: false
-  hardwarelicensing: "Not OSS"
+  hardwarelicensing: "Not open-source"
   bluetooth: true
   blog: https://blog.ledger.com/
   disclosureprogram: https://blog.ledger.com/bounty
