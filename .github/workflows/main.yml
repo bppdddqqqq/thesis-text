@@ -21,6 +21,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v3.1.2
         with:
+          python-version: '3.9' 
           cache: 'pip'
       - name: Setup libraries
         run: pip3 install -r Compilator/requirements.txt
@@ -38,6 +39,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v3.1.2
         with:
+          python-version: '3.9'
           cache: 'pip'
       - name: Run compile
         run: python3 main.py -c
