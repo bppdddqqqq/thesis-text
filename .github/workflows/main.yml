@@ -94,7 +94,7 @@ jobs:
           name: Finished site
           path: data/output
   pages:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     needs: [emanote]
     name: Upload to GitHub page
     steps:
