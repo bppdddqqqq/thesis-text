@@ -10,7 +10,7 @@ properties:
   hwisupport: false
   independentmode: false
   madeby: Foundation
-  manual: true
+  manual: https://docs.foundationdevices.com/
   mcu: ST STM32H753
   mcumanufacturer: ST MicroElectronics
   openclient: true
@@ -21,3 +21,29 @@ properties:
   secureelementmanufacturer: MicroChip
   supported: true
   tethered: "Fully airgapped"
+  nfc: false
+  supportlink: https://docs.foundationdevices.com/
+  disclosureprogram: https://foundationdevices.com/security/
+  android: true
+  inputs: "12-button pad with omnidirectional button with 2 buttons"
+  subscription: null
+  countryoforigin: USA
+  bluetooth: false
+  sdcard: true
+  schematicsavailable: https://github.com/Foundation-Devices/passport-electronics
+  github: https://github.com/Foundation-Devices/
+  microusb: false
+  macos: true
+  windows: true
+  qrcode: true
+  blog: https://blog.foundationdevices.com/
+  hardwarelicensing: CERN-OHL-S v2
+  bomavailable: https://github.com/Foundation-Devices/passport-electronics/blob/master/Main%20Board/Assembly/Bill%20of%20Materials%20-%20CSV/BOM_FD-JL-PCBA-MB_E1.csv
+  linux: true
+  forkedhardware: "ColdCard MK1/MK2"
+  packageSecure: "No"
+  batterytype: "2 AAA batteries"
+  remotemode: false
+  multipleeditions: false
+  ios: true
+  usbc: false

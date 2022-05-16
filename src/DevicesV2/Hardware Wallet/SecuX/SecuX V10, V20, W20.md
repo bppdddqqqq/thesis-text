@@ -27,7 +27,7 @@ The SOC had been publicly exploited - https://vuldb.com/?id.175464
 The SE has no public records of exploits, it's probably that the vendor demands an NDA for any vulnerability disclosures.
 
 There are some source codes available on SecuX's public github account.
-- [GitHub - secuxtech/SecuXMCU: SecuX device firmware](https://github.com/secuxtech/SecuXMCU) - the firmware files seem to be incomplete, lacking whole parts of the source code, imports to certain libraries, there are no guides on how to compile the firmware and it fully redacts all code regarding crypto and secure element communication
+- [GitHub - secuxtech/SecuXMCU: SecuX device firmware](https://github.com/secuxtech/SecuXMCU) - the firmware files seem to be incomplete, lacking whole parts of the source code, imports to certain libraries, there are no guides on how to compile the firmware and it fully redacts all code regarding crypto and secure element communication. The firmware is not reproducible
 
 There was an incident which caused SecuX to suddenly rebase/censor repositories or outright withdraw them from public access. Allegedly it's caused by an author of this Youtube video https://www.youtube.com/watch?v=Az5-pboXnaQ which showcased an exploit where the adversary can exploit the device to show arbitrary messaging, which may cause confusion to inexperienced or non-techsavvy users. The exploit used a modified host library for communicating with the device. Which was formerly available on npm and github. After the video, the npm repo points to an empty package with no binary blobs and github repo contains nothing and is fully redacted from all commits. It was attempted to contact the author of the video if he has backed up data to the relevant SecuX info, and he did.
 

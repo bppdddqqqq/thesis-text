@@ -10,7 +10,7 @@ properties:
   hwisupport: false
   independentmode: false
   madeby: D'Cent
-  manual: true
+  manual: https://userguide.dcentwallet.com/
   mcu: Unknown
   mcumanufacturer: ST MicroElectronics
   openclient: false
@@ -21,3 +21,29 @@ properties:
   secureelementmanufacturer: NXP Microconductors
   supported: true
   tethered: "Via Bluetooth connection"
+  usbc: false
+  microusb: true
+  countryoforigin: South Korea
+  multipleeditions: false
+  blog: null
+  bluetooth: true
+  github: https://github.com/DcentWallet
+  remotemode: false
+  supportlink: https://dcentwallet.com/support/Questions
+  ios: true
+  disclosureprogram: null
+  bomavailable: null
+  batterytype: "Li-Ion 585mAh"
+  sdcard: false
+  subscription: null
+  packageSecure: Holographic seal
+  nfc: false
+  hardwarelicensing: "Not OS"
+  qrcode: false
+  forkedhardware: "None"
+  macos: false
+  android: true
+  linux: false
+  windows: false
+  inputs: "4-directional button with center button"
+  schematicsavailable: null

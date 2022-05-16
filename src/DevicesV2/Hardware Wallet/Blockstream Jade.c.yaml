@@ -10,7 +10,7 @@ properties:
   hwisupport: true
   independentmode: false
   madeby: "Blockstream"
-  manual: true
+  manual: https://help.blockstream.com/hc/en-us/categories/900000061906-Blockstream-Jade
   mcu: "ESP 32"
   mcumanufacturer: Espressif
   openclient: true
@@ -21,3 +21,29 @@ properties:
   secureelementmanufacturer: null
   supported: true
   tethered: "Via USB-C or Bluetooth connection"
+  countryoforigin: Canada
+  inputs: "button and clickwheel"
+  qrcode: false
+  linux: true
+  supportlink: https://help.blockstream.com/
+  schematicsavailable: https://github.com/Blockstream/Jade/blob/master/hardware/Jade_v1_schematics.pdf
+  ios: true
+  hardwarelicensing: "GPL-3/MIT"
+  microusb: false
+  bluetooth: true
+  forkedhardware: "M5Stack"
+  nfc: false
+  disclosureprogram: null
+  multipleeditions: false
+  packageSecure: "Holographic seal"
+  sdcard: false
+  android: true
+  macos: true
+  blog: https://blog.blockstream.com/
+  bomavailable: https://github.com/Blockstream/Jade/blob/master/hardware/Jade_v1_BoM.csv
+  github: https://github.com/Blockstream/
+  usbc: true
+  remotemode: false
+  windows: true
+  batterytype: "240mAh"
+  subscription: null

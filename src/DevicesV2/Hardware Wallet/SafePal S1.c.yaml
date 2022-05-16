@@ -10,7 +10,7 @@ properties:
   hwisupport: false
   independentmode: false
   madeby: SafePal
-  manual: true
+  manual: https://docs.safepal.io/safepal-hardware-wallet/user-manual
   mcu: SafePal S1
   mcumanufacturer: AllWinner
   openclient: false
@@ -21,3 +21,29 @@ properties:
   secureelementmanufacturer: null
   supported: true
   tethered: "Airgapped"
+  multipleeditions: false
+  ios: true
+  sdcard: false
+  countryoforigin: China
+  macos: false
+  blog: https://blog.safepal.io/
+  hardwarelicensing: "Not OS"
+  windows: false
+  microusb: true
+  bluetooth: false
+  usbc: false
+  subscription: null
+  disclosureprogram: null
+  nfc: false
+  inputs: "4-directional buttons and center button"
+  packageSecure: "Holographic seal"
+  remotemode: false
+  bomavailable: null
+  linux: false
+  forkedhardware: "None"
+  batterytype: "400mAh"
+  schematicsavailable: null
+  qrcode: true
+  github: https://github.com/safepal/
+  supportlink: https://safepalsupport.zendesk.com/hc/en-us
+  android: true

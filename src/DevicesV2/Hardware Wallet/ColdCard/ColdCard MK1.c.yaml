@@ -1,10 +1,10 @@
 properties:
   _n: ColdCardMk1
   airgapped: false
-  battery: true
+  battery: false
   btconly: true
   communicationapi: true
-  dimensions: [88, 52, 9]
+  dimensions: [88, 51, 9]
   display: OLED BW
   hasclient: false
   hwisupport: true
@@ -26,24 +26,24 @@ properties:
   nfc: false
   hardwarelicensing: "Copying-CC"
   bluetooth: false
-  blog: 
-  disclosureprogram: 
+  blog: https://blog.coinkite.com
+  disclosureprogram: null
   ios: false
   packageSecure: "Holographic sale, tamper-evident sealbag"
-  bomavailable: null
-  schematicsavailable: null
-  github: 
+  bomavailable: 
+  schematicsavailable: 
+  github: https://github.com/coinkite/
   inputs: "12-button pinpad"
-  supportlink: 
+  supportlink: https://coinkite.com/contact
   microusb: true
   macos: true
   remotemode: true
   batterytype: "None"
   multipleeditions: false
-  forkedhardware: ""
+  forkedhardware: "Trezor Model One?"
   countryoforigin: "Canada"
   qrcode: false
   subscription: null
-  android: true
+  android: false
   sdcard: true
   usbc: false
