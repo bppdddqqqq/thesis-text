@@ -86,7 +86,7 @@ jobs:
         uses: addnab/docker-run-action@v3
         with:
           image: sridca/emanote
-          options: -e LANG=C.UTF-8 -e LC_ALL=C.UTF-8 --tmpfs /tmp -v `pwd`/data:/data
+          options: -e LANG=C.UTF-8 -e LC_ALL=C.UTF-8 --tmpfs /tmp -v ${{ github.workspace }}/data:/data
           run: emanote -L "/data/dist" gen /data/output.docker
       - name: Upload a Site Artifact
         uses: actions/upload-artifact@v3.0.0
