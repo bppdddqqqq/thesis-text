@@ -114,3 +114,5 @@ jobs:
           build_dir: output/
           jekyll: false
           verbose: true
+        env:
+          GH_PAT: ${{ secrets.PAT }}
