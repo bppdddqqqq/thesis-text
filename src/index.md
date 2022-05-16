@@ -18,10 +18,9 @@ Hardware wallets:
 	- [[Trezor One]]#
 	- [[Trezor Model T]]#
 	- [[On Security of Trezor]]#
-- [[ColdCard - a taxonomy]] 70% done
-	- [[ColdCard MK4]] WIP
+- [[ColdCard - a taxonomy]]
 - [[BitBox02]] 70% done
-- [[D'Cent Biometric Wallet]]#
+- [[DCent Biometric Wallet]]#
 - [[SafePal S1]]#
 - [[BC Vault]]#
 - [BitLox](DevicesV2/Hardware%20Wallet/BitLox.md)#
@@ -40,7 +39,6 @@ Honorable mentions:
 
 Cryptocards:
 - [[HashWallet]]
-- [[Feitian JuBiter Blade (deprecated)]]
 - [[Tangem Wallet]]
 
 Info about hardware chips:

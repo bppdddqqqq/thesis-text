@@ -15,7 +15,7 @@ The device is not as of yet released; most of the info can be critically out of 
 ### Transparency
 Because the device is not yet released, the only information we can infer are from the marketing videos, their IndieGogo campaign, and the official website.
 
-There is a severe discrepancy between the hardware specifications publicly listed on the website and what's genuinely inferred from the specs. The most significant discrepancy is on memory. They list out the memory of their chosen [[Apollo3 Blue SOC]] and copy-paste the memory to the memory for their remote backup device powered solely by [[Infineon SLE78 SE]].
+There is a severe discrepancy between the hardware specifications publicly listed on the website and what's genuinely inferred from the specs. The most significant discrepancy is on memory. They list out the memory of their chosen Apollo3 Blue SOC and copy-paste the memory to the memory for their remote backup device powered solely by [[Infineon SLE78 SE]].
 
 Their blog at [https://esignus.medium.com](https://esignus.medium.com/) slightly details the development of their device and describes the eSignus company's history. 
 

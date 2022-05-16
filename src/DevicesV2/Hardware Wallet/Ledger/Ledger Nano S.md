@@ -1,5 +1,5 @@
 # Ledger Nano S
-Versatile hardware wallet device created by a french company Ledger. Company is at competition with Trezor company, by releasing their device shortly after the release of [[Trezor Model One]].
+Versatile hardware wallet device created by a french company Ledger. Company is at competition with Trezor company, by releasing their device shortly after the release of [[Trezor One]].
 
 ## At a glance
 
@@ -9,7 +9,7 @@ The device has a specific architecture, where MCU is handling all UX and communi
 
 The MCU is made to be an untrusted environment, requiring for the chip to be verified by the SE on bootup. Verification is done by copying the memory regions of the bootloader and firmware to the SE and SE validating that the underlying code is untampered by comparing the resulting hash. SE is only capable of requesting said data and not having direct access to it, this could pose a problem if the bootloader/firmware can fit extra data into their memory regions and modifying copy function to omit modified regions.
 
-This had been exploited and publicly disclosed by a hacker Saleem Rashid, where he presented the exploit by forcefully setting recovery seed to a preset. The exploit was attempted to be disclosed by Rashid to Ledger but it had been denied and determined to be implausible. There was also a level of evasiveness by the Ledger CTO and other staff members. Eventually the firmware update had been released by Ledger to mitigate this issue. The bug fix haven't been uploaded to their premium device [[Ledger Blue]] (per the blog post written on Mar 20, 2018)
+This had been exploited and publicly disclosed by a hacker Saleem Rashid, where he presented the exploit by forcefully setting recovery seed to a preset. The exploit was attempted to be disclosed by Rashid to Ledger but it had been denied and determined to be implausible. There was also a level of evasiveness by the Ledger CTO and other staff members. Eventually the firmware update had been released by Ledger to mitigate this issue. The bug fix haven't been uploaded to their premium device Ledger Blue (per the blog post written on Mar 20, 2018)
 
 - source: https://saleemrashid.com/2018/03/20/breaking-ledger-security-model/
 

@@ -5,7 +5,7 @@ source: https://shop.archos.com/fr/hardware-wallets/588-archos-safe-t-mini-06905
 
 
 # SecuX W10,W20,V20 Line
-Is a range of devices manufactured by a "TODO" company. The line consists of 3 devices, which vary in form factor and feature-sets. All of the devices seem to use the same Secure Element, so-called [[InfoKeyVault S97 Omni]]. The range of devices suffer from informational blackout, with various source codes pulled and removed after a critical video review on Youtube, regarding the device's security.
+Is a range of devices manufactured by a "TODO" company. The line consists of 3 devices, which vary in form factor and feature-sets. All of the devices seem to use the same Secure Element, so-called InfoKeyVault S97 Omni. The range of devices suffer from informational blackout, with various source codes pulled and removed after a critical video review on Youtube, regarding the device's security.
 ## At a glance
 
 ### Transparency
@@ -14,7 +14,7 @@ The hardware of the device is to greather relevance unknown and aside from publi
 FCC Filings:
 - https://fccid.io/2ASNW-SX001
 
-The FCC filing partially redacts some information, like the BOM and schematics, but according to the FCC specifications, they cannot redact/hide inside photographies of the hardware. Which is publicly available and allows the user to know the hardware. V20/W20 runs on the [[Nordic Semiconductors nRF52840 SOC]] and seems to contain a rather propriatary [InfoKeyVault S97 Omni](InfoKeyVault%20S97%20Omni) security element.
+The FCC filing partially redacts some information, like the BOM and schematics, but according to the FCC specifications, they cannot redact/hide inside photographies of the hardware. Which is publicly available and allows the user to know the hardware. V20/W20 runs on the Nordic Semiconductors nRF52840 SOC and seems to contain a rather propriatary InfoKeyVault S97 Omni(InfoKeyVault%20S97%20Omni) security element.
 
 The hardware can be confirmed on the vendor's press statements. 
 

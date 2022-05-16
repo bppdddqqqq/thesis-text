@@ -6,7 +6,7 @@ A cryptowallet created by a french manufacturer Archos. The device forks Trezor 
 ## At a glance
 
 ### Transparency
-The firmware is based upon [[Trezor One]]'s 1.6.1 firmware with modifications done to the storage controller to support a [[Microchip AT88SC0104CA]] secure memory, which should guarantee higher level of protection regarding storage of cryptographical seeds.
+The firmware is based upon [[Trezor One]]'s 1.6.1 firmware with modifications done to the storage controller to support a Microchip AT88SC0104CA secure memory, which should guarantee higher level of protection regarding storage of cryptographical seeds.
 
 The source code has traces of vulnerable U2F implementation patched on Trezor One's [firmware 1.7.2](https://blog.trezor.io/details-about-the-security-updates-in-trezor-one-firmware-1-7-2-3c97adbf121e). Whether the device supports U2F is unknown, but from prior observation of the manual that's not the case. Archos also had forked and modified every single repository relevant to Trezor One hardware.
 
@@ -32,7 +32,7 @@ The security is similar to [[Trezor One]] with an exception of added SE to secur
 The packaging is sealed by holographic seals on opening seams of the box. The box cannot be opened without tampering with the seals.
 
 ### Privacy
-The device seems to require their propriatary client, whether it's possible to use [[Trezor Suite]] or [[Trezor Wallet]] to connect it with Safe-T is unknown.
+The device seems to require their propriatary client, whether it's possible to use [[Trezor Suite]] or Trezor Wallet to connect it with Safe-T is unknown.
 The device relies on software wallet to do it's work, reducing confidentiality of the funds on device.
 
 ## Non-hardware related

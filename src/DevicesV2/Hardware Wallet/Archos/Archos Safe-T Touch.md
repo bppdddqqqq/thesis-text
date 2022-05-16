@@ -10,7 +10,7 @@ A crypto wallet created by a french manufacturer Archos. The device is as of yet
 ### Transparency
 The device can broadcast by itself via Bluetooth connection with an internet-connected Android phone. The device itself doesn't have any Wi-Fi or Bluetooth radios. 
 
-One invalid thing is their claim for EAL7 level of "military-grade security." This claim may be valid for small circuitry but not for the overall architecture of the device. The marketing material claims they use [[ST STSAFE-J102]] Secure Element; this SE is unfortunately certified at EAL5 level only.
+One invalid thing is their claim for EAL7 level of "military-grade security." This claim may be valid for small circuitry but not for the overall architecture of the device. The marketing material claims they use ST STSAFE-J102 Secure Element; this SE is unfortunately certified at EAL5 level only.
 
 According to marketing material [here](https://www.archos.com/us/products/crypto/archos_safettouch/index.html) the device uses "ProvenCore Trusted Execution Environment Operating System" which according to this press statement did achieve EAL7 certification
 
@@ -21,7 +21,7 @@ The device seems to garner rather negative reception, with users claiming they'v
 
 Their hardware seems to be powered by a MediaTek MT65xx/MT66xx/MT67xx chip, according to the driver requirements for usage with the Updater tool. The device appears to run a flavor of Android OS; how secure the OS in question is unknown. The device could be related to the now-infamous BitFi Wallet ([ditto 1](https://www.digitaltrends.com/computing/hacker-doom-bitfi-mcafee-wallet/), [ditto 2](https://techcrunch.com/2018/08/30/john-mcafees-unhackable-bitfi-wallet-got-hacked-again/))
 
-There is an FCC filing [here](https://fccid.io/SOVACSAFETT01); the filing had to be done because the device has a Bluetooth radio. The FCC filing contains photos of the hardware device, which describes its internals; the device is powered by [[MediaTek MT6739V]] SOC and MT6357V Power IC module chips and includes a Kingstone eMMC memory chip.  The SE in question is probably located on the motherboard, but the pictures are not of high resolution to read out information about the QN32 chips located on the motherboard. The device is also manufactured in China.
+There is an FCC filing [here](https://fccid.io/SOVACSAFETT01); the filing had to be done because the device has a Bluetooth radio. The FCC filing contains photos of the hardware device, which describes its internals; the device is powered by MediaTek MT6739V SOC and MT6357V Power IC module chips and includes a Kingstone eMMC memory chip.  The SE in question is probably located on the motherboard, but the pictures are not of high resolution to read out information about the QN32 chips located on the motherboard. The device is also manufactured in China.
 
 The general trust on this device is **low**
 

@@ -47,10 +47,6 @@ The device relies on software wallet to do it's work, reducing confidentiality o
 ### Manual
 The device doesn't have a very rich manual (only a quick start guide, which only instructs user on how to setup the device), the quality of documentation is at times poor and demands user to look up information or even how the precise processes look from the community on the internet, such as Youtube or Reddit.
 
-![[Pasted image 20210716111417.png | one of the opening attempts, courtesy of Krypto Mates YT channel]]
-
-One of the attempts to open
-
 ### Support
 Support is either done via Reddit (https://reddit.com/r/trezor), on their official website's forum (https://forum.trezor.io/) or via their email form (https://trezor.io/support/technical/issue/).
 

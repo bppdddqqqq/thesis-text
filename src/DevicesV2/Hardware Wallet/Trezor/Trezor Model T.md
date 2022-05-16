@@ -22,7 +22,7 @@ The device is managed by a software called [[Trezor Suite]], which not only doub
 
 ### Optional features
 The wallet also contains support for U2F and FIDO2 authentication. In addition, in conjunction with Trezor's official software, the device may operate as an external encryptor/decryptor for it's built-in password manager called Trezor Password Manager.
-Aside from standard BIP-39 support the device supports a custom feature called [[Shamir Backup]], which is an alternative to BIP-39 single-key'd recovery strategy
+Aside from standard BIP-39 support the device supports a custom feature called Shamir Backup, which is an alternative to BIP-39 single-key'd recovery strategy
 
 ### Security
 User can validate and authenticate on the device itself. The process of generating the wallet is done all in-device, including writing down the recovery seed and validating correct transcription of the seed. Recovery of the wallet is also done in-device, allowing complete secrecy of the recovery seed from an external attacker.

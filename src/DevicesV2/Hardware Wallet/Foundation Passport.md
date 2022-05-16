@@ -17,7 +17,7 @@ Source: https://twitter.com/nvk/status/1288860345864527874
 
 The complete schematics are publicly available in this repository https://github.com/Foundation-Devices/passport-electronics.
 
-Personally, I perceive this as a very nice addition to the premium cryptowallet space, due to other similarly priced devices being mostly proprietary like [[BC Vault]] or partially open-source like [[Cobo Vault | Cobo Vault/Keystone]].
+Personally, I perceive this as a very nice addition to the premium cryptowallet space, due to other similarly priced devices being mostly proprietary like [[BC Vault]] or partially open-source like [[Cobo Vault|Cobo Vault/Keystone]].
 
 ### Software client
 There is no official software client and the device is fully compliant with ["Bitcoin Uniform Resources"](https://github.com/BlockchainCommons/Research/blob/master/papers/bcr-2020-005-ur.md) encoding standard, which allows it to be used by any client around if they support this standard.
