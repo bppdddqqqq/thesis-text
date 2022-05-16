@@ -111,6 +111,6 @@ jobs:
           # GitHub repository where assets will be deployed (default $GITHUB_REPOSITORY)
           repo: ap-thesis.github.io
           # Build directory to deploy
-          build_dir: output/optional
+          build_dir: output/
           jekyll: false
           verbose: true
