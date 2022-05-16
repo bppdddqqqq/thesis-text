@@ -43,6 +43,8 @@ jobs:
           python-version: '3.9'
           cache: 'pip'
           cache-dependency-path: 'Compilator/requirements.txt'
+      - name: Setup libraries
+        run: pip3 install -r Compilator/requirements.txt
       - name: Run compile
         run: python3 main.py -c
       - name: Cache dist
