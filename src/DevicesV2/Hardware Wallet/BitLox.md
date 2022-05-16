@@ -12,7 +12,7 @@ The hardware device on release was a blackbox.  But the developers had released 
 
 The device had been disassembled - http://www.stellaw.info/blog/2016/2/12/bitlox-first-impressions-and-teardown. The teardown showed that the device is sealed shut in epoxy resin and contains a single Atmel SAM ARM SOC, specific model number is unknown because the manufacturer had scratched off the model number of the SOC.
 
-Firmware is available here ( https://github.com/BitLox/bitlox-firmware ). The firmware hints at the device running on Arduino platform, with bindings for necessary porting from AVR to ARM architecture (Arduino is primarily for running on AVR). There are also strings which hint at the device running on Atmel SAM3 Platform. The account seems to have forked firmware for [Nordic Semiconductors nRF52840 SOC](Nordic%20Semiconductors%20nRF52840%20SOC), which may mislead potential analysists from misidentifying the device.
+Firmware is available here ( https://github.com/BitLox/bitlox-firmware ). The firmware hints at the device running on Arduino platform, with bindings for necessary porting from AVR to ARM architecture (Arduino is primarily for running on AVR). There are also strings which hint at the device running on Atmel SAM3 Platform. The account seems to have forked firmware for Nordic Semiconductors nRF52840 SOC, which may mislead potential analysists from misidentifying the device.
 
 BitLox has multiple hardware editions. Advanced, Ultimate and Extreme Privacy. All editions share the same feature-set on the software, but Ultimate has a metal case and Extreme Privacy contains a bootable umage of TAILS OS for operation of BitLox in a trusted software environment with Tor on.
 

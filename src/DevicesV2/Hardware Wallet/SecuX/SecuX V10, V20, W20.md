@@ -21,7 +21,7 @@ The hardware can be confirmed on the vendor's press statements.
 - [The SecuX V20 wallet employs nRF52840 SoC to provide secure wireless connectivity for crypto asset transaction via host smartphone, tablet, or PC - nordicsemi.com](https://www.nordicsemi.com/News/2019/04/SecuX-V20-wallet-use-nRF52840-to-provide-secure-wireless-connectivity-for-crypto-asset-transaction)
 - add slides about Omni S97
 
-The information about [Nordic Semiconductors nRF52840 SOC](Nordic%20Semiconductors%20nRF52840%20SOC) are public and user can easily find documentation, source codes, etc. This is not the case of Omni S97. The chip is a black box with no publicly available details. After further inquiries with the vendor, there is a requirement of an NDA. This chip is not officially advertised as Omni by the manufacturers, rather as [Infineon SLE78 SE](../../../Hardware%20Chips/SE/Infineon%20SLE78%20SE.md) line of secure element chips.  
+The information about Nordic Semiconductors nRF52840 SOC are public and user can easily find documentation, source codes, etc. This is not the case of Omni S97. The chip is a black box with no publicly available details. After further inquiries with the vendor, there is a requirement of an NDA. This chip is not officially advertised as Omni by the manufacturers, rather as [Infineon SLE78 SE](../../../Hardware%20Chips/SE/Infineon%20SLE78%20SE.md) line of secure element chips.  
 
 The SOC had been publicly exploited - https://vuldb.com/?id.175464
 The SE has no public records of exploits, it's probably that the vendor demands an NDA for any vulnerability disclosures.
