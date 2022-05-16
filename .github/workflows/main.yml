@@ -87,9 +87,9 @@ jobs:
         with:
           image: sridca/emanote
           options: -e LANG=C.UTF-8 -e LC_ALL=C.UTF-8 --tmpfs /tmp -v ${{ github.workspace }}/data:/data
-          run: emanote -L "/data/dist" gen /data/output.docker
+          run: emanote -L "/data/dist" gen /data/output
       - name: Upload a Site Artifact
         uses: actions/upload-artifact@v3.0.0
         with:
           name: Finished site
-          path: data/output.docker
+          path: data/output
