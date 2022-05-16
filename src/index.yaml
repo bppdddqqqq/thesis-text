@@ -2,7 +2,7 @@
 # https://github.com/srid/emanote/blob/master/default/index.yaml
 
 page:
-  siteTitle: BCAP - Wallets
+  siteTitle: BCAP - Hardware Wallets Wiki
   siteName: bcap-sbapr
 
 template:
@@ -10,4 +10,4 @@ template:
   sidebar:
     collapsed: true
   urlStrategy: direct
-  baseUrl: https://www.fi.muni.cz/~xparak1/bcpa/
+  baseUrl: https://ap-thesis.github.io/
