@@ -1,0 +1,28 @@
+name: Pull request check for Thesis-parser
+on:
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    name: Check validity of documents
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }}
+          submodules: recursive
+      
+      - name: Setup Python
+        uses: actions/setup-python@v3.1.2
+        with:
+          python-version: '3.9' 
+          cache: 'pip'
+          cache-dependency-path: 'Compilator/requirements.txt'
+      - name: Setup libraries
+        run: pip3 install -r Compilator/requirements.txt
+      - name: Run check
+        run: python3 main.py -d
