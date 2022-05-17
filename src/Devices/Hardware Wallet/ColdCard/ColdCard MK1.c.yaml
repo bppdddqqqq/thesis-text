@@ -16,10 +16,14 @@ properties:
   openclient: true
   openhardware: false
   psbt: true
+  segwit: true
+  taproot: false
+  lighting: false
+  bitcoinonlyfirmware: true
   released: 2018
   secureelement: Microchip ATSHA204
   secureelementmanufacturer: MicroChip
-  supported: true
+  supported: false
   tethered: "Via USB"
   windows: true
   linux: true

@@ -16,6 +16,10 @@ properties:
   openclient: false
   openhardware: false
   psbt: false
+  segwit: true
+  taproot: true
+  lighting: false
+  bitcoinonlyfirmware: false
   released: 2019
   secureelement: InfoKeyVault S97 Omni
   secureelementmanufacturer: InfoKeyVault

@@ -16,6 +16,10 @@ properties:
   openclient: true
   openhardware: false
   psbt: true
+  segwit: true
+  taproot: true
+  lighting: false
+  bitcoinonlyfirmware: true
   released: 2019
   secureelement: STM ST33J2M0
   secureelementmanufacturer: ST MicroElectronics

@@ -16,6 +16,10 @@ properties:
   openclient: true
   openhardware: true
   psbt: true
+  segwit: true
+  taproot: true
+  lighting: false
+  bitcoinonlyfirmware: true
   released: 2022
   secureelement: Microchip ATECC608A/B and Maxim DS28C36BQ+T
   secureelementmanufacturer: MicroChip and Maxim

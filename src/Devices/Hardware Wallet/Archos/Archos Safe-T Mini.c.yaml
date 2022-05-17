@@ -16,6 +16,10 @@ properties:
   openclient: true
   openhardware: true
   psbt: false
+  segwit: true
+  taproot: false
+  lighting: false
+  bitcoinonlyfirmware: false
   released: 2018
   secureelement: Microchip AT88SC0104CA
   secureelementmanufacturer: MicroChip

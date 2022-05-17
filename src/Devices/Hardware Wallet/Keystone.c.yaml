@@ -16,6 +16,10 @@ properties:
   openclient: false
   openhardware: true
   psbt: true
+  segwit: true
+  taproot: false
+  lighting: false
+  bitcoinonlyfirmware: true
   released: 2021
   secureelement: Cobo SE
   secureelementmanufacturer: Cobo

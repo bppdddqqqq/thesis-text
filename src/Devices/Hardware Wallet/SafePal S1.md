@@ -40,9 +40,6 @@ The research was released on Feb 2021, SafePal had released a statement ( [Stay 
 
 ### Privacy
 Hardware, software is propriatary. The only way to use the wallet is via a closed-source application on mobile phones. Privacy is thus limited by the EULA, another word of concern can be, that SafePal seems to be under strong influence of Binance, with tight integration with their platform and receiving strategic investments from their Lab unit.
-
-Todo: study EULA and what the app seems to disclose to Binance
-
 ## Non-hardware related
 
 ### Manual

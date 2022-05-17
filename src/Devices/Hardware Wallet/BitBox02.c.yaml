@@ -21,6 +21,10 @@ properties:
   openhardware: true
   packageSecure: Holographic tape on the box seams
   psbt: true
+  segwit: true
+  taproot: true
+  lighting: false
+  bitcoinonlyfirmware: true
   released: 2019
   secureelement: Microchip ATECC608A
   secureelementmanufacturer: MicroChip

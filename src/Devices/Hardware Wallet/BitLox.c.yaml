@@ -16,6 +16,10 @@ properties:
   openclient: true
   openhardware: false
   psbt: false
+  segwit: false
+  taproot: false
+  lighting: false
+  bitcoinonlyfirmware: false
   released: 2016
   secureelement: None
   secureelementmanufacturer: null
