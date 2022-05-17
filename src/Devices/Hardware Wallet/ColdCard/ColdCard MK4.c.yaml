@@ -46,7 +46,7 @@ properties:
   multipleeditions: false
   forkedhardware: "ColdCard Mk3"
   countryoforigin: "Canada"
-  qrcode: true
+  qrcode: false
   subscription: null
   android: true
   sdcard: true

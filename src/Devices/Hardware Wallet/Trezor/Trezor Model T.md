@@ -50,3 +50,5 @@ Support is either done via Reddit (https://reddit.com/r/trezor), on their offici
 
 ## Upgradability
 With the device being the 2nd in line of their cryptowallets, the device has a much stronger support for more demanding cryptocurrencies. The most concerning thing would be lack of an SE, which per the claims of Trezor isn't essential due to its equal amount of attention given to security of not only the hardware but also the software and lack of any hardware acceleration for common cryptographical algorithms, which may will impact its longevity in case of a hypothetical introduction of multi-layered encryption schemes in cryptocurrencies. 
+
+Trezor offers Bitcoin-only flavour of their firmware.
