@@ -1,7 +1,5 @@
 name: Check process for Thesis-parser
 on:
-  pull_request:
-    branches: [ master ]
   push:
     branches: [ master ]
 
@@ -103,6 +101,8 @@ jobs:
         with:
           name: Finished site
           path: output/
+      - name: Delete site artifact
+        uses
       - name: GitHub Pages
         # You may pin to the exact commit or the version.
         # uses: crazy-max/ghaction-github-pages@a117e4aa1fb4854d021546d2abdfac95be568a3a
