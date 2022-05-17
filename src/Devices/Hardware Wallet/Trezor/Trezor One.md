@@ -54,3 +54,5 @@ Support is either done via Reddit (https://reddit.com/r/trezor), on their offici
 The device is already superseded by [[Trezor Model T]] which creates a divide in support of cryptocurrencies/features and also range of support by the developers themselves. The device is still sold and there are currently no known plans of phasing out the device in favor of Model T, the weaker SOC could be concerning where there would be necessary support for more expansive improvements to protocols on already support cryptocurrencies.
 
 The most concerning thing would be lack of an SE, which per the claims of Trezor isn't essential due to its equal amount of attention given to security of not only the hardware but also the software and lack of any hardware acceleration for common cryptographical algorithms, which may will impact its longevity in case of a hypothetical introduction of multi-layered encryption schemes in cryptocurrencies. 
+
+Trezor offers Bitcoin-only flavour of their firmware.
