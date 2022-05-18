@@ -2,6 +2,7 @@ import typing
 import Compilator.folders as fold
 import argparse
 from Compilator.state import State
+from Compilator.categories import get_category_info
 
 import sys
 from pprint import pprint
@@ -18,7 +19,7 @@ if __name__ == '__main__':
 
     if args.get('category') and len(args['category']) > 0:
         for i in args['category']:
-            pprint(get_category_info(i))
+            print(get_category_info(i))
     elif args['compile'] == 1:
         fold.compile()
     elif args['dry'] == 1:
