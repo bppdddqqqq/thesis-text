@@ -1,0 +1,53 @@
+properties:
+  _n: BitFi1
+  airgapped: true
+  battery: true
+  btconly: false
+  communicationapi: false
+  dimensions: [115, 70, 10]
+  display: LCD Touch
+  hasclient: false
+  hwisupport: false
+  independentmode: true
+  madeby: BitFi Inc.
+  manual: null
+  mcu: MediaTek MT6580
+  mcumanufacturer: MediaTek
+  openclient: true
+  openhardware: false
+  psbt: false
+  segwit: false
+  taproot: false
+  lighting: false
+  bitcoinonlyfirmware: false
+  released: 2018
+  secureelement: None
+  secureelementmanufacturer: null
+  supported: true
+  tethered: "Via WiFi"
+  windows: false
+  linux: false
+  nfc: false
+  hardwarelicensing: "AGPL-3.0"
+  bluetooth: false
+  blog: null
+  disclosureprogram: null
+  ios: false
+  packageSecure: "Unknown"
+  bomavailable: null
+  schematicsavailable: null
+  github: https://github.com/Bitfi
+  inputs: "Touch input"
+  supportlink: https://bitfi.com/contact-us
+  microusb: true
+  macos: false
+  remotemode: false
+  batterytype: "1300mAh Li-ion"
+  multipleeditions: false
+  forkedhardware: None
+  countryoforigin: "USA"
+  qrcode: false
+  subscription: null
+  android: false
+  sdcard: false
+  usbc: false

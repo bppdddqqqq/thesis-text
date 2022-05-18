@@ -1,0 +1,53 @@
+properties:
+  _n: TangemWallet
+  airgapped: false
+  battery: false
+  btconly: false
+  communicationapi: true
+  dimensions: [86, 45, 6]
+  display: None
+  hasclient: true
+  hwisupport: false
+  independentmode: false
+  madeby: Tangem
+  manual: https://www.gimly.io/s/Tangem-by-Gimly-Technical-Manual_Inc-SSI
+  mcu: null
+  mcumanufacturer: null
+  openclient: false
+  openhardware: false
+  psbt: true
+  segwit: true
+  taproot: true
+  lighting: false
+  bitcoinonlyfirmware: true
+  released: 2021
+  secureelement: Samsung S3D350A
+  secureelementmanufacturer: Samsung
+  supported: true
+  tethered: "Via NFC"
+  nfc: true
+  supportlink: https://docs.foundationdevices.com/
+  disclosureprogram: https://foundationdevices.com/security/
+  android: true
+  inputs: "None"
+  subscription: null
+  countryoforigin: Switzerland
+  bluetooth: false
+  sdcard: false
+  schematicsavailable: null
+  github: https://github.com/tangem
+  microusb: false
+  macos: false
+  windows: false
+  qrcode: false
+  blog: null
+  hardwarelicensing: Not open-source
+  bomavailable: null
+  linux: false
+  forkedhardware: "None"
+  packageSecure: "No"
+  batterytype: "None"
+  remotemode: false
+  multipleeditions: true
+  ios: true
+  usbc: false

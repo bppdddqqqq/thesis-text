@@ -1,0 +1,53 @@
+properties:
+  _n: KeepKey
+  airgapped: false
+  battery: false
+  btconly: false
+  communicationapi: true
+  dimensions: [93, 38, 12]
+  display: OLED BW
+  hasclient: true
+  hwisupport: true
+  independentmode: false
+  madeby: ShapeShift
+  manual: https://keepkey.shapeshift.com/get-started/
+  mcu: ST STM32F205RE
+  mcumanufacturer: ST MicroElectronics
+  openclient: true
+  openhardware: false
+  psbt: true
+  segwit: true
+  taproot: false
+  lighting: false
+  bitcoinonlyfirmware: false
+  released: 2015
+  secureelement: None
+  secureelementmanufacturer: null
+  supported: true
+  tethered: "Via USB"
+  windows: true
+  linux: true
+  nfc: false
+  hardwarelicensing: "Not open-source"
+  bluetooth: false
+  blog: null
+  disclosureprogram: https://shapeshift.com/responsible-disclosure-program
+  ios: false
+  packageSecure: "Holographic seal"
+  bomavailable: null
+  schematicsavailable: null
+  github: https://github.com/KeepKey
+  inputs: "1 button"
+  supportlink: https://keepkey.shapeshift.com/get-started/
+  microusb: true
+  macos: false
+  remotemode: false
+  batterytype: "None"
+  multipleeditions: false
+  forkedhardware: Trezor Model One
+  countryoforigin: Switzerland
+  qrcode: false
+  subscription: null
+  android: true
+  sdcard: false
+  usbc: false

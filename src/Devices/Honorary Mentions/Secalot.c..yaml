@@ -1,0 +1,53 @@
+properties:
+  _n: Secalot
+  airgapped: false
+  battery: false
+  btconly: true
+  communicationapi: true
+  dimensions: [60, 15, 10]
+  display: None
+  hasclient: false
+  hwisupport: false
+  independentmode: false
+  madeby: Secalot
+  manual: null
+  mcu: NXP MK82FN256VDC15
+  mcumanufacturer: NXP Semiconductors
+  openclient: true
+  openhardware: true
+  psbt: true
+  segwit: true
+  taproot: false
+  lighting: false
+  bitcoinonlyfirmware: false
+  released: 2017
+  secureelement: None
+  secureelementmanufacturer: null
+  supported: true
+  tethered: "Via USB"
+  windows: true
+  linux: true
+  nfc: false
+  hardwarelicensing: "MIT License"
+  bluetooth: false
+  blog: null
+  disclosureprogram: null
+  ios: false
+  packageSecure: "Unknown"
+  bomavailable: https://github.com/Secalot/secalot.hardware/blob/master/BOM.xlsx
+  schematicsavailable: https://github.com/Secalot/secalot.hardware/tree/master/p1
+  github: https://github.com/Secalot
+  inputs: "1 button"
+  supportlink: null
+  microusb: true
+  macos: false
+  remotemode: false
+  batterytype: "None"
+  multipleeditions: false
+  forkedhardware: null
+  countryoforigin: Unknown
+  qrcode: false
+  subscription: null
+  android: false
+  sdcard: false
+  usbc: false

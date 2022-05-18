@@ -1,0 +1,53 @@
+properties:
+  _n: HashWallet
+  airgapped: false
+  battery: true
+  btconly: false
+  communicationapi: true
+  dimensions: [86, 45, 10]
+  display: "E-Ink Display"
+  hasclient: true
+  hwisupport: false
+  independentmode: false
+  madeby: ESignum
+  manual: null
+  mcu: null
+  mcumanufacturer: null
+  openclient: false
+  openhardware: false
+  psbt: true
+  segwit: true
+  taproot: true
+  lighting: false
+  bitcoinonlyfirmware: true
+  released: null
+  secureelement: Unknown
+  secureelementmanufacturer: Unknown
+  supported: false
+  tethered: "Via Bluetooth"
+  nfc: false
+  supportlink: null
+  disclosureprogram: null
+  android: true
+  inputs: "Fingerprint reader"
+  subscription: null
+  countryoforigin: Spain
+  bluetooth: true
+  sdcard: false
+  schematicsavailable: null
+  github: null
+  microusb: false
+  macos: false
+  windows: false
+  qrcode: false
+  blog: null
+  hardwarelicensing: Not open-source
+  bomavailable: null
+  linux: false
+  forkedhardware: "None"
+  packageSecure: "No"
+  batterytype: "None"
+  remotemode: false
+  multipleeditions: false
+  ios: true
+  usbc: false

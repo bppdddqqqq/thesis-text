@@ -1,0 +1,53 @@
+properties:
+  _n: FeitianJuBiter1
+  airgapped: false
+  battery: true
+  btconly: false
+  communicationapi: true
+  dimensions: [64, 38, 2]
+  display: "OLED BW"
+  hasclient: true
+  hwisupport: false
+  independentmode: false
+  madeby: Feitian
+  manual: https://fccid.io/ZD3FTJC6JUBLD1/Users-Manual/User-manual-3994792
+  mcu: null
+  mcumanufacturer: null
+  openclient: false
+  openhardware: false
+  psbt: true
+  segwit: true
+  taproot: true
+  lighting: false
+  bitcoinonlyfirmware: false
+  released: 2018
+  secureelement: Infineon SLE78
+  secureelementmanufacturer: Infineon
+  supported: true
+  tethered: "Via Bluetooth"
+  nfc: false
+  supportlink: https://www.jubiterwallet.com/support/#/
+  disclosureprogram: null
+  android: true
+  inputs: "4 buttons"
+  subscription: null
+  countryoforigin: China
+  bluetooth: true
+  sdcard: false
+  schematicsavailable: null
+  github: https://github.com/ftjubiterwallet
+  microusb: true
+  macos: false
+  windows: false
+  qrcode: false
+  blog: null
+  hardwarelicensing: Not open-source
+  bomavailable: null
+  linux: false
+  forkedhardware: "None"
+  packageSecure: "No"
+  batterytype: "33mAh Li-ion"
+  remotemode: false
+  multipleeditions: false
+  ios: true
+  usbc: false

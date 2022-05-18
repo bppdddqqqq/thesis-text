@@ -1,51 +1,51 @@
 properties:
-  _n: TrezorModel1
+  _n: BWallet
   airgapped: false
   battery: false
   btconly: false
   communicationapi: true
-  dimensions: [60, 30, 6]
+  dimensions: [60, 60, 6]
   display: OLED BW
   hasclient: true
-  hwisupport: true
+  hwisupport: false
   independentmode: false
-  madeby: Trezor
-  manual: https://wiki.trezor.io/User_manual:Unboxing_the_Trezor_device__T1
+  madeby: Bidixing
+  manual: https://readthedocs.org/projects/bwallet-faq/downloads/pdf/latest/
   mcu: ST STM32F205RE
   mcumanufacturer: ST MicroElectronics
   openclient: true
   openhardware: true
   psbt: true
-  segwit: true
-  taproot: true
+  segwit: false
+  taproot: false
   lighting: false
-  bitcoinonlyfirmware: true
+  bitcoinonlyfirmware: false
   released: 2014
   secureelement: None
   secureelementmanufacturer: null
-  supported: true
+  supported: false
   tethered: "Via USB"
   windows: true
   linux: true
   nfc: false
   hardwarelicensing: "AGPL-3.0"
   bluetooth: false
-  blog: https://blog.trezor.io/
-  disclosureprogram: https://trezor.io/security/
+  blog: null
+  disclosureprogram: null
   ios: false
-  packageSecure: "Holographic seal"
-  bomavailable: https://github.com/trezor/trezor-hardware/blob/master/electronics/trezor_one/trezor_v1.1_BOM.csv
-  schematicsavailable: https://github.com/trezor/trezor-hardware/tree/master/electronics/trezor_one
-  github: https://github.com/trezor/
+  packageSecure: "Unknown"
+  bomavailable: https://github.com/BWallet/bwallet-sch/blob/master/bwallet-sch.pdf
+  schematicsavailable: https://github.com/BWallet/bwallet-sch/blob/master/bwallet-sch.pdf
+  github: https://github.com/bwallet/
   inputs: "2 buttons"
-  supportlink: https://trezor.io/support/
+  supportlink: null
   microusb: true
   macos: true
   remotemode: false
   batterytype: None
   multipleeditions: false
   forkedhardware: None
-  countryoforigin: "Czech Republic"
+  countryoforigin: "China"
   qrcode: false
   subscription: null
   android: true
