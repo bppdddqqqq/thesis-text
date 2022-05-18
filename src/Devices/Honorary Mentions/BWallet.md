@@ -49,7 +49,9 @@ The developers seems to have attempted to do very intrusive modifications to the
 ## Non-hardware related
 
 ### Manual
-N/A
+The most outrageous of the cloning attempt is that the developers globbed any mentions of Trezor and replaced it with their company name Bidixing, or BWallet hardware wallet name. Manual is same as for Trezor Model One dated from 2015.
+
+// source: https://readthedocs.org/projects/bwallet-faq/downloads/pdf/latest/
 
 ### Support
 The device is abandonned.

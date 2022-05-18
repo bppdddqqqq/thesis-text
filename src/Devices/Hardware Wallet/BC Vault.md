@@ -29,7 +29,8 @@ There is a .dll file that allows interfacing with the BC Vault device, but it's 
 ### Security
 The device has certifications of conformity according to standards EN 60950-1 :2006 + A 1:2010 + A2:2013 + A 11 :2009 + A 12:2011, but this standard is only about safety of the device. In addition to that, it is also certified under EN 55032:2012, EN 55024:2010, EN 61000-3-2:2014, EN 61000-3-3:2013 which is also about electronic safety of the device and is in no way relevant to the SECURITY of the device.
 
-The device had been independently security audited by a company called "         ".
+The device had been independently security audited by a company called "SIQ".
+// Source: https://bc-vault.com/2020/05/bc-vault-completes-security-assessment-by-siq/
 
 The device is one of the few if not only nondeterministic wallets, that means it's not reliant on BIP-39 deterministic wallet generation but instead generates private-public keys for each new wallet. The device can store up to 2000 of such wallets. For the sake of safety, the device forgoes also standard methods of backup, instead relying on encrypted SD card backups of private keys or manual readout of the private key while in IKWID mode (special recovery mode for extracting private keys on request, this marks the said wallet as unsafe permanently).
 
