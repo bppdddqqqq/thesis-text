@@ -20,7 +20,7 @@ Hardware wallets:
 - [[SafePal S1]]#
 - [[BC Vault]]#
 - [BitLox](Devices/Hardware%20Wallet/BitLox.md)#
-- [Blockstream Jade](Devices/Hardware%20Wallet/Blockstream%20Jade.md) NOT DONE
+- [Blockstream Jade](Devices/Hardware%20Wallet/Blockstream%20Jade.md)
 - Archos
 	- [[Archos Safe-T Mini]]
 	- [[Archos Safe-T Touch]]
