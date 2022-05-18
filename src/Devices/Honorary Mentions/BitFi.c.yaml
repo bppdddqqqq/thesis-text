@@ -6,6 +6,7 @@ properties:
   communicationapi: false
   dimensions: [115, 70, 10]
   display: LCD Touch
+  displaytype: "Color Touch"
   hasclient: false
   hwisupport: false
   independentmode: true
@@ -16,7 +17,7 @@ properties:
   openclient: true
   openhardware: false
   psbt: false
-  segwit: false
+  segwit: true
   taproot: false
   lighting: false
   bitcoinonlyfirmware: false
@@ -38,6 +39,7 @@ properties:
   schematicsavailable: null
   github: https://github.com/Bitfi
   inputs: "Touch input"
+  inputmethod: Touch
   supportlink: https://bitfi.com/contact-us
   microusb: true
   macos: false

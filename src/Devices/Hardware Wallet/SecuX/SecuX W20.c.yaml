@@ -6,6 +6,7 @@ properties:
   communicationapi: false
   dimensions: [89, 59, 13]
   display: LCD Touch
+  displaytype: "Color Touch"
   hasclient: true
   hwisupport: false
   independentmode: false
@@ -37,7 +38,8 @@ properties:
   bomavailable: null
   schematicsavailable: null
   github: https://github.com/secux/
-  inputs: "LCD Touch"
+  inputs: "Touch input"
+  inputmethod: Touch
   supportlink: https://contact.secuxtech.com/
   microusb: false
   macos: true

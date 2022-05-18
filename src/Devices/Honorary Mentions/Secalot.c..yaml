@@ -6,6 +6,7 @@ properties:
   communicationapi: true
   dimensions: [60, 15, 10]
   display: None
+  displaytype: "None"
   hasclient: false
   hwisupport: false
   independentmode: false
@@ -38,6 +39,7 @@ properties:
   schematicsavailable: https://github.com/Secalot/secalot.hardware/tree/master/p1
   github: https://github.com/Secalot
   inputs: "1 button"
+  inputmethod: Button
   supportlink: null
   microusb: true
   macos: false

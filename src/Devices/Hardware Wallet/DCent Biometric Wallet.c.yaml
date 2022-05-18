@@ -6,6 +6,7 @@ properties:
   communicationapi: false
   dimensions: [77, 43, 11]
   display: OLED BW
+  displaytype: "BW"
   hasclient: true
   hwisupport: false
   independentmode: false
@@ -49,5 +50,6 @@ properties:
   android: true
   linux: false
   windows: false
-  inputs: "4-directional button with center button"
+  inputs: "Directional pad with center button"
+  inputmethod: Button
   schematicsavailable: null

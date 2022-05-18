@@ -6,6 +6,7 @@ properties:
   communicationapi: true
   dimensions: [85,54,4]
   display: "E-Ink"
+  displaytype: "BW"
   hasclient: true
   hwisupport: false
   independentmode: false
@@ -32,7 +33,8 @@ properties:
   packageSecure: "Unknown"
   forkedhardware: "None"
   schematicsavailable: null
-  inputs: "10-digit keypad"
+  inputs: "Pinpad"
+  inputmethod: Button
   multipleeditions: true
   ios: true
   countryoforigin: "Hong Kong"

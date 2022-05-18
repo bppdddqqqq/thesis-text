@@ -6,6 +6,7 @@ properties:
   communicationapi: false
   dimensions: [106,64,8]
   display: LCD touch
+  displaytype: "Color Touch"
   hasclient: true
   hwisupport: false
   independentmode: true
@@ -32,7 +33,8 @@ properties:
   packageSecure: "Holographic seal"
   forkedhardware: "None"
   schematicsavailable: null
-  inputs: "touch input"
+  inputs: "Touch input"
+  inputmethod: Touch
   multipleeditions: true
   ios: false
   countryoforigin: "France"

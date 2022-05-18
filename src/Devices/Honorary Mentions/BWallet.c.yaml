@@ -6,6 +6,7 @@ properties:
   communicationapi: true
   dimensions: [60, 60, 6]
   display: OLED BW
+  displaytype: "BW"
   hasclient: true
   hwisupport: false
   independentmode: false
@@ -38,6 +39,7 @@ properties:
   schematicsavailable: https://github.com/BWallet/bwallet-sch/blob/master/bwallet-sch.pdf
   github: https://github.com/bwallet/
   inputs: "2 buttons"
+  inputmethod: Button
   supportlink: null
   microusb: true
   macos: true

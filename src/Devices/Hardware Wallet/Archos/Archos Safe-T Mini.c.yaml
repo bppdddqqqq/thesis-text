@@ -6,6 +6,7 @@ properties:
   communicationapi: true
   dimensions: [58,58,8]
   display: "OLED BW"
+  displaytype: "BW"
   hasclient: true
   hwisupport: false
   independentmode: false
@@ -33,6 +34,7 @@ properties:
   forkedhardware: "Trezor Model One"
   schematicsavailable: null
   inputs: "2 buttons"
+  inputmethod: Button
   multipleeditions: false
   ios: false
   countryoforigin: "France"

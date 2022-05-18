@@ -1,13 +1,27 @@
-https://github.com/orgs/Coldcard/repositories
+# ColdCard Mk4
 
-https://github.com/Coldcard/ckcc-protocol
+```
+Warning, the document is intentionally brief, to know more please refer to ColdCard - a taxonomy
+```
 
-https://github.com/Coldcard/firmware/blob/d7c41ce88ee06864583574d87b25e3edf4573041/stm32/COLDCARD/rng.c
+Fourth continuation of the device. It boasts improved features and uses new firmware branch 5.x which is separate from ColdCard Mk1/2/3's 4.x
 
-https://github.com/Coldcard/firmware/
+## Improvements
 
-https://github.com/Coldcard/ckbunker
+* USB-C connector
+* Unlimited memory: no Bitcoin transaction size restrictions!
+* Expanded multisig capabilities: handle bigger, more complex transactions.
+* NFC-V compatible: tap to transmit all data types, including PSBTs, addresses, and XPUBs.
+* Protective sliding cover shields screen and keypad when not in use.
+* Two Secure Elements for even more security:
+    * Many new and extensive duress PIN options (Trick PINs)
+    * Two Secure Elements, two manufacturers; minimizes unknown vulnerability risks.
+* USB Virtual Disk Mode: emulates a 4MB disk when connected to macOS, Windows, iPhone, etc.
+* Tougher case: upgraded with new plastic and cleaner edges.
+* Faster processor and substantially higher memory capacity.
 
-https://github.com/Coldcard/psbt_faker
+Newly uses #!markdown_get('ColdCardMk4', 'mcu') SOC. Which is much more performant than Mk3.
 
-https://coinkite.com/responsible-disclosure
+The SEs in question are #!markdown_get('ColdCardMk4', 'secureelement')
+
+Source: https://coldcard.com/docs/coldcard-mk4
